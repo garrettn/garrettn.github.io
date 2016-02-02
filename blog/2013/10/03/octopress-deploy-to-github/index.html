@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Octopress: Deploy to GitHub, Back Up to Bitbucket - Garrett Nay</title>
+  <meta name="author" content="Garrett Nay">
+
+  
+  <meta name="description" content="Deploy your Octopress blog publicly to GitHub Pages and back it up privately to Bitbucket.">
+  <meta name="keywords" content="Octopress, Git, GitHub, Bitbucket, deployment">
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Garrett Nay" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,700,400italic,700italic|Fira+Mono:400,700' rel='stylesheet' type='text/css'>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-44535617-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Garrett Nay</a></h1>
+  
+    <h2>I develop web.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  
+  
+</ul>
+
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Octopress: Deploy to GitHub, Back Up to Bitbucket</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-03T18:22:00-06:00" pubdate data-updated="true">Oct 3<sup>rd</sup>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It&rsquo;s probably pretty obvious that this blog is built with <a href="http://octopress.org">Octopress</a>.
+Obvious at least until I use a new theme.</p>
+
+<p>Octopress is built on top of the static site generator <a href="http://jekyllrb.com">Jekyll</a>, and together
+they make a fantastic blogging platform for hacker types. You can write your
+posts in your favorite editor in plain text, you can track your changes with
+Git, and you can publish on any web server that can serve static HTMl, CSS, and
+JavaScript&mdash;no database necessary!</p>
+
+<p>One popular place to deploy an Octopress blog is on <a href="http://pages.github.com">GitHub Pages</a>, and
+Octopress has built-in functionality to make it trivially easy to do.<!--more-->
+The blog you&rsquo;re reading right now is a testament to how simple it is (as is the
+fact that the &ldquo;Octo&rdquo; in Octopress refers to the GitHub mascot, Octocat, I
+believe.)</p>
+
+<h2>Setting Up Deployment to GitHub</h2>
+
+<p>The first thing you need to do, obviously, is create an account on GitHub. When
+you have an account set up, you then create a repository that takes the form
+<code>username.github.io</code>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> GitHub will automatically recognize this repo as your
+personal site, and any static web content you push here will be published.</p>
+
+<p>Next, if you haven&rsquo;t already done so, <a href="http://octopress.org/docs/setup/">clone the Octopress repository on your computer and install the dependencies</a>.</p>
+
+<p>Once Bundler finishes installing all the gems, you&rsquo;ll have the <code>rake</code> command
+available to you with lots of tasks already configured to help you customize,
+preview, generate, and deploy your blog.</p>
+
+<p>The Rake task I want to focus on here is the aptly named <code>setup_github_pages</code>.
+Simply invoke that task to get started.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will now ask you for the URL for your repository. You can use either the
+Git or HTTPS protocol, both of which should be easy to find on your
+repository page. For this example, I&rsquo;ll use the URL for my own GitHub pages
+repo.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Enter the read/write url for your repository
+</span><span class='line'>(For example, 'git@github.com:your_username/your_username.github.io.git)
+</span><span class='line'>           or 'https://github.com/your_username/your_username.github.io')
+</span><span class='line'>Repository url: git@github.com:garrettn/garrettn.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And that&rsquo;s all you need to do! You should now see a bunch of output like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Added remote git@github.com:garrettn/garrettn.github.io.git as origin
+</span><span class='line'>Set origin as default remote
+</span><span class='line'>Master branch renamed to 'source' for committing your blog source files
+</span><span class='line'>rm -rf _deploy
+</span><span class='line'>mkdir _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>Initialized empty Git repository in ......./garrettn.github.io/_deploy/.git/
+</span><span class='line'>[master (root-commit) 2d8c9ba] Octopress init
+</span><span class='line'> 1 file changed, 1 insertion(+)
+</span><span class='line'> create mode 100644 index.html
+</span><span class='line'>cd -
+</span><span class='line'>
+</span><span class='line'>---
+</span><span class='line'>## Now you can deploy to git@github.com:garrettn/garrettn.github.io.git with `rake deploy` ##</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A couple important things have happened here:</p>
+
+<ol>
+<li><p>The task added your repo URL as a Git remote and named it &ldquo;origin.&rdquo; If you
+had cloned Octopress from the official repo, that remote was renamed to
+&ldquo;octopress,&rdquo; and it&rsquo;s still available so you can conveniently pull in changes
+from upstream.</p></li>
+<li><p>The master branch, which was up to this point called &ldquo;master,&rdquo; was renamed to
+&ldquo;source.&rdquo;</p></li>
+<li><p>A new <code>_deploy</code> directory was created, and inside that directory a new Git
+repository was created with that same remote as &ldquo;origin.&rdquo; This folder will be
+ignored by Git in the root of your project, but here is where the &ldquo;master&rdquo; branch
+is that will actually be pushed to your repository on GitHub.</p></li>
+</ol>
+
+
+<p>Now, like the script says, you simply need to enter <code>rake deploy</code> to make the
+magic happen. You can run this command right after you generate your site.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate
+</span><span class='line'>$ rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When you invoke the <code>generate</code> command, your site will be generated into the
+<code>public</code> directory. The <code>deploy</code> task will then go into the <code>_deploy</code> directory
+and pull in any changes there may be on the server (there shouldn&rsquo;t be). Next, it
+will copy the contents of the <code>public</code> directory into <code>_deploy</code> and commit the
+changes to the master branch. Finally, it will push that branch up to your remote
+repository on GitHub.</p>
+
+<p>Within about 10 minutes, you should see shiny new blog at <code>username.github.io</code>.
+That was easy, wasn&rsquo;t it?</p>
+
+<h2>What About the Source Files?</h2>
+
+<p>As I said before, the Rake task for setting up deployment changes your main
+branch from &ldquo;master&rdquo; to &ldquo;source.&rdquo; Since the deployment task only pushes the
+master branch, it&rsquo;s completely up to you what to do with the source. You&rsquo;ll want
+to back it up somewhere, and probably the easiest thing to do is to push that
+branch up to GitHub also.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push -u origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But suppose you don&rsquo;t want your source files to be publicly accessible? It might
+be a silly thing to worry about, since everything in your source files gets
+published to the site anyway. But what if you are working on a post that isn&rsquo;t
+quite ready for prime time? Jekyll lets you set an option in the YAML front
+matter of a post called <code>published</code>. When it is set to <code>false</code>, you&rsquo;ll still
+see the post when you&rsquo;re previewing your site locally, but it won&rsquo;t get
+generated for deployment.</p>
+
+<p>So if you&rsquo;re working on a post that&rsquo;s going through several revisions, you might
+not want to make it publicly accessible yet, but you&rsquo;ll probably still want to
+back it up somewhere. What to do?</p>
+
+<p>One of the simplest solutions is Bitbucket.</p>
+
+<h2>Backing Up to Bitbucket</h2>
+
+<p><a href="https://bitbucket.org">Bitbucket</a> is another code hosting service, perhaps not as popular as GitHub,
+but still awesome and here&rsquo;s why: <strong>unlimited free private repositories</strong>.
+Whereas GitHub charges you for any amount of private repos, Bitbucket bases its
+payment scheme on how many users you have collaborating on your repos (it&rsquo;s
+free for up to five users). So if you have a private project that you want to
+back up to a safe place but not where it can be accessed by anybody, Bitbucket
+is an excellent resource.</p>
+
+<p>So here&rsquo;s what you do: Create a Bitbucket account if you don&rsquo;t have one, and
+then set up a new repository for your Octopress source files (I gave it the same
+name as on GitHub). On the page for your new repository, you&rsquo;ll find a URL that
+you can add to your local Git repository. Then you simply add that remote. I
+called mine &ldquo;backup.&rdquo;</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git remote add backup ssh://git@bitbucket.org/garrettnay/garrettn.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, whenever you have commits you want to back up, simply push the source
+branch up to Bitbucket.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push -u backup source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>(Use the <code>-u</code> option the first time to set up a tracking branch. After that it&rsquo;s
+no longer necessary.)</p>
+
+<p>And that&rsquo;s all there is to it! Now you have an easy way to deploy your blog,
+and also a place to back it up away from prying eyes. It&rsquo;s a setup that&rsquo;s worked
+really well for me.</p>
+
+<p>See, I told you Octopress was fun.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m not going to go into details here about how to create repositories on GitHub or Bitbucket. The process on both sites is pretty straightforward, and they both have excellent documentation.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Garrett Nay</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-03T18:22:00-06:00" pubdate data-updated="true">Oct 3<sup>rd</sup>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/git/'>git</a>, <a class='category' href='/blog/categories/octopress/'>octopress</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/10/01/were-all-learning-here/" title="Previous Post: We're all learning here">&laquo; We're all learning here</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place/" title="Next Post: Keep all your Octopress plugins in one place">Keep all your Octopress plugins in one place &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+  <aside class="sidebar">
+   
+  
+    <form method="get" action="/search.html">
+      <fieldset role="search">
+        <input class="search" name="query" type="text" placeholder="Search..." x-webkit-speech />
+      </fieldset>
+    </form>
+  
+  
+    <section>
+  <ul>
+  	<li><a href="/atom.xml" rel="subscribe-rss" title="Subscribe via RSS" class="icon-feed">Feed</a></li>
+  	<li><a href="https://github.com/garrettn" rel="github" title="View on GitHub" class="icon-github">@garrettn</a></li>
+  	<li><a href="http://www.linkedin.com/pub/garrett-nay/48/34a/87b" rel="linkedin" title="Connect on LinkedIn" class="icon-linkedin">Garrett Nay</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2016/02/01/i-have-been-learning-the-wrong-way/">I Have Been Learning the Wrong Way</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/08/19/still-not-sure-about-angularjs/">Still Not Sure About AngularJS</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/12/lessons-learned-from-creating-an-open-source-library/">Lessons Learned From Creating an Open-Source Library</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio/">Battle of the Clouds: Koding vs. Codio</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/06/10/the-obligatory-redesign-post/">The Obligatory Redesign Post</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/garrettn">@garrettn</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'garrettn',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2016 - Garrett Nay -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -
+  <span class="credit"><a href="https://github.com/johnkeith/boldandblue">Theme</a> by <a href="http://www.johnkeith.us">John Keith</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'garrettnay';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/';
+        var disqus_url = 'http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function() {  
+  var stickyNavTop = $('nav').offset().top;  
+    
+  var stickyNav = function(){  
+  var scrollTop = $(window).scrollTop();  
+         
+  if (scrollTop > stickyNavTop) {   
+      $('nav').addClass('sticky');  
+  } else {  
+      $('nav').removeClass('sticky');   
+  }  
+  };  
+    
+  stickyNav();  
+    
+  $(window).scroll(function() {  
+      stickyNav();  
+  });  
+  });  
+</script>
+
+
+</body>
+</html>

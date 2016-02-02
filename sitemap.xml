@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2016/02/01/i-have-been-learning-the-wrong-way/</loc>
+    <lastmod>2016-02-01T07:19:10-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2014/08/19/still-not-sure-about-angularjs/</loc>
+    <lastmod>2014-08-19T08:22:47-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2014/07/12/lessons-learned-from-creating-an-open-source-library/</loc>
+    <lastmod>2014-07-12T09:29:19-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio/</loc>
+    <lastmod>2014-07-07T21:05:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2014/06/10/the-obligatory-redesign-post/</loc>
+    <lastmod>2014-06-10T07:00:48-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2014/02/19/write-modular-javascript-that-works-anywhere-with-umd/</loc>
+    <lastmod>2014-02-19T06:20:47-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass/</loc>
+    <lastmod>2013-12-16T19:19:50-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/12/10/manage-your-dotfiles-easily-with-homeshick/</loc>
+    <lastmod>2013-12-10T15:31:03-07:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/10/25/amazing-resource-devdocs-goes-open-source/</loc>
+    <lastmod>2013-10-25T07:39:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/10/21/run-programs-from-your-home-directory-in-ubuntu/</loc>
+    <lastmod>2013-10-21T21:18:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place/</loc>
+    <lastmod>2013-10-07T15:57:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/</loc>
+    <lastmod>2013-10-03T18:22:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/2013/10/01/were-all-learning-here/</loc>
+    <lastmod>2013-10-01T18:43:00-06:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://garrettn.github.io/</loc>
+    <lastmod>2016-02-02T07:48:14-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/blog/archives/</loc>
+    <lastmod>2016-02-02T07:48:14-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://garrettn.github.io/search.html</loc>
+    <lastmod>2016-02-02T07:48:14-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+</urlset>

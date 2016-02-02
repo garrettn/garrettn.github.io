@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://garrettn.github.io/sitemap.xml 

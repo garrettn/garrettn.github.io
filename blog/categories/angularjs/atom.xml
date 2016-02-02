@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Angularjs | Garrett Nay]]></title>
+  <link href="http://garrettn.github.io/blog/categories/angularjs/atom.xml" rel="self"/>
+  <link href="http://garrettn.github.io/"/>
+  <updated>2016-02-02T07:48:14-07:00</updated>
+  <id>http://garrettn.github.io/</id>
+  <author>
+    <name><![CDATA[Garrett Nay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Still Not Sure About AngularJS]]></title>
+    <link href="http://garrettn.github.io/blog/2014/08/19/still-not-sure-about-angularjs/"/>
+    <updated>2014-08-19T08:22:47-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/08/19/still-not-sure-about-angularjs</id>
+    <content type="html"><![CDATA[<p>I had originally planned to title this post &ldquo;I&rsquo;m Starting to Get Sold on AngularJS,&rdquo; but a blog post I read the other day got me thinking again. In <a href="http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks">&ldquo;Opinionated Rundown of JS Frameworks&rdquo;</a>, <a href="https://twitter.com/HenrikJoreteg">Henrik Joreteg</a> from <a href="http://andyet.com">&amp;yet</a> gives some interesting critiques of Angular (as well as other JavaScript frameworks) that caused some of my old doubts to resurface. I still think Angular is a very cool framework, and I intend to continue experimenting with it, but I&rsquo;m hesitant to treat it like the only serious player in the game, as so many developers seem to do already.</p>
+
+<!-- more -->
+
+
+<p>In his post, Henrik gives his opinion on the pros and cons of AngularJS, and you can tell he feels pretty strongly about it because the cons are much longer and more detailed. I&rsquo;d like to offer my comments on some of those cons, including my original doubts and how those doubts have evolved.</p>
+
+<h2>1. Learning Angular vs. Learning JavaScript</h2>
+
+<p>Henrik&rsquo;s first concern with Angular is that developers run the risk of gaining skills that are very Angular-specific and not easily translatable to other contexts:</p>
+
+<blockquote><p>Picking Angular means you’re learning Angular the framework instead of how to solve problems in JavaScript. &hellip; I’ve got developers who’s [sic] primary skill is Angular, not necessarily JavaScript.</p></blockquote>
+
+<p>My first reaction to this point was to ask, How is that any different with any other framework? I believe that any time you use a framework to build an application, you&rsquo;re going to have to learn and use some skills that apply to that framwork only. You can&rsquo;t abstract away forever.</p>
+
+<p>But the truth is that Angular is a pretty different beast next to all the other JavaScript frameworks out there. It uses a module system all its own. It chucks a lot of Web standards in favor of creating its own HTML &ldquo;directives&rdquo; to define DOM behavior. It uses dependency injection for <em>everything</em>.</p>
+
+<p>None of these things is necessarily bad (especially the dependency injection). But I can see the risk of becoming so ingrained with &ldquo;the Angular way&rdquo; that you don&rsquo;t know how to do things outside of an Angular app.</p>
+
+<p>I myself resisted learning Angular for a long time. I got wowed by demonstrations at conferences like a lot of people, but I didn&rsquo;t want to put serious effort into learning how to develop with the framework, I think because 1) it&rsquo;s trendy, and I have a natural resistance to trendy things; 2) it&rsquo;s backed by Google, which I have a bit of a &hellip; distaste for (more on that in a future post, possibly); and 3) I didn&rsquo;t want to change, Backbone being my first love in the world of JS frameworks.</p>
+
+<p>Obviously, none of these reasons are good excuses for not expanding my skills and trying my things. I also realized that a lot of companies use AngularJS for their apps, so if I want to stay relevant, I at least have to learn how to use it. So lately I&rsquo;ve been learning what I can.</p>
+
+<p>Turns out, I think Angular is pretty dang cool. It&rsquo;s amazing what you can create with very little setup and configuration. I&rsquo;m also really interested in the <a href="http://ionicframework.com">Ionic Framework for mobile apps</a>, which integrates tightly with Angular.</p>
+
+<p>Ironically, as I started learning Angular, I felt the opposite of what Henrik is expressing here. I believed that working with Angular instead of Backbone would make me a better overall JavaScript developer, mainly because Angular itself doesn&rsquo;t provide any sort of model abstraction. Instead, you usually work with plain old JavaScript objects (POJOs), which requires you to really understand how JavaScript&rsquo;s prototype paradigm really works. But now I&rsquo;m starting to see what he means&mdash;when you consider the framework as a whole, you can really get used to a certain way of developing that relies mainly on Angular skills, as opposed to JavaScript skills.</p>
+
+<p>So is learning Angular worth it? Most definitely. But I want to be careful not to let that be the only way I know how to develop wep applications.</p>
+
+<h2>2. Separation of Concerns</h2>
+
+<p>I have gone back and forth on this issue a lot. Henrik says that Angular violates the principle of <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">separation of concerns</a> because of its HTML directives:</p>
+
+<blockquote><p>In Angular you spend a lot of time describing behavior in HTML instead of JS. For me personally, this is the deal breaker with Angular. I don’t want to describe application logic in HTML, it’s simply not expressive enough because it’s a markup language for structuring documents, not describing application logic.</p></blockquote>
+
+<p>I totally felt the same way at first. When I saw those <code>ng-click</code> directives, I thought, How are those any different from the <code>onclick</code> HTML attributes that are so looked down upon nowadays?</p>
+
+<p>There&rsquo;s at least one big difference, actually, and that is that the expressions inside Angular directives are always contained within the scope of their controller, whereas the <code>onclick</code> attribute operates within the global scope. The whole concept of scope in Angular is pretty cool.</p>
+
+<p>```html</p>
+
+<!-- This click handler calls the global addItem function -->
+
+
+<p><button onclick="addItem(item)">Add</button></p>
+
+<!-- This one calls the addItem function that exists on the $scope object of the controller -->
+
+
+<p><button ng-click="addItem(item)">Add</button>
+```</p>
+
+<p>But there&rsquo;s still the issue of application logic inside the HTML. That does go against what you&rsquo;re traditionally taught about web development. It&rsquo;s funny, though, because Angular developers consider this a major selling point of the framework. And a short while ago I realized, Why not? Why not let the HTML worry about the HTML, so the JavaScript can worry about the data and business logic? On the other hand, it seems bad to let <em>some</em> of the application logic go into the HTML while most of it stays in the JavaScript.</p>
+
+<p>The jury is still out for me on this one. I think both sides make valid points, and I guess what really matters is which approach helps you accomplish the task more effectively.</p>
+
+<h2>3. Magic</h2>
+
+<p>No doubt about it, AngularJS has a lot of <a href="http://en.wikipedia.org/wiki/Magic_%28programming%29">magic</a>. That&rsquo;s what makes it so great for demos. Now some people in the programming community will tell you that magic in a framework is a great thing, while others will say it&rsquo;s a terrible thing. Henrik seems to lean toward the latter camp:</p>
+
+<blockquote><p>Magic comes at a cost. When you’re working with something that’s highly abstracted, it becomes a lot more difficult to figure out what’s wrong when something goes awry. &hellip; I would guess most Angular users lack enough understanding of the framework itself to really feel confident modifying or debugging Angular itself.</p></blockquote>
+
+<p>That describes me pretty well. I am still fairly new to Angular, though, and I have to say that the magic of Angular is pretty impressive. The two-way data binding is, of course, awesome. But one of the coolest features for me is how the dependency injection works. The injector knows what to give you just by what you call the parameter to your function! I have never seen that anywhere else in the JavaScript world.</p>
+
+<p>```javascript
+angular.module(&lsquo;MyApp&rsquo;)</p>
+
+<pre><code>.controller('MainCtrl', function ($scope, $http) {
+    // It knows what $scope and $http are just because you named them that!
+});
+</code></pre>
+
+<p>```</p>
+
+<p>But as Henrik says, magic comes at a cost. When there is so much happening for you automatically, you have to wonder how much functionality you&rsquo;re including that you don&rsquo;t actually need, which could be a drain on performance. Angular is increasingly separating out its functionality into modules, though, so that may become less of an issue.</p>
+
+<p>Even more to the point, the more magic your framwork provides, the easier it is to remain unaware of what goes on under the hood, making it harder to tailor to your specific needs and harder to optimize. This point goes along with the first one, in that all this magic increases your reliance on the specific framework you use.</p>
+
+<p>That isn&rsquo;t to say that you should avoid any magic or abstraction that frameworks provide (in fact, Henrik makes this point later on in his post). Frameworks exist to make it easier for us to develop better applications more efficiently. They also make it a lot more fun (and Angular is definitely fun to work with). But too much abstraction can be a danger because, in Henrik&rsquo;s words, &ldquo;when you veer off the beaten path, you’re on your own.&rdquo;</p>
+
+<h2>Conclusion: Have I Gotten Anywhere?</h2>
+
+<p>I think I&rsquo;ve proven the premise of the title of this post&mdash;I&rsquo;m just not sure how I feel about AngularJS. It has been fun to learn and explore, certainly. And I think it&rsquo;s important to understand how to develop applications with it on some level at least. Angular obviously isn&rsquo;t going away any time soon. More and more development teams are turning to it, and if I want to be a part of some of the cool work that is going on, I&rsquo;m going to have to speak the language.</p>
+
+<p>Still, I&rsquo;m afraid to go all in and become an Angular developer through and through. Instead I&rsquo;ll focus on becoming a great, well-rounded JavaScript developer who knows how to select and use the best tools for the job at hand.</p>
+
+<p>Perhaps not surprisingly, at the end of the post I&rsquo;ve been referring to, Henrik discusses a new framework created by the people at &amp;yet called <a href="http://ampersandjs.com">Ampersand</a>. Of course they&rsquo;re going to favor their own creation, but I&rsquo;ve been looking at Ampersand the past couple days, and I have to say, it is pretty cool. It&rsquo;s like the new generation of Backbone. I will certainly have more to say about it in a future post.</p>
+
+<p>Until then, keep on learning and keep on coding!</p>
+]]></content>
+  </entry>
+  
+</feed>

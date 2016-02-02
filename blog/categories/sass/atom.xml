@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Sass | Garrett Nay]]></title>
+  <link href="http://garrettn.github.io/blog/categories/sass/atom.xml" rel="self"/>
+  <link href="http://garrettn.github.io/"/>
+  <updated>2016-02-02T07:48:14-07:00</updated>
+  <id>http://garrettn.github.io/</id>
+  <author>
+    <name><![CDATA[Garrett Nay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[@extend: One Reason I Love Sass]]></title>
+    <link href="http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass/"/>
+    <updated>2013-12-16T19:19:50-07:00</updated>
+    <id>http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass</id>
+    <content type="html"><![CDATA[<p>As I was working on my last post, I re-discovered a feature of <a href="http://sass-lang.com">Sass</a> that
+reminded me of why it&rsquo;s so great.</p>
+
+<!-- more -->
+
+
+<p>I realized that when I was writing what the user should type (like <kbd>git pull</kbd>),
+I should probably be using the <code>&lt;kbd&gt;</code> element instead of the regular code
+backticks in Markdown, because <a href="http://devdocs.io/html/kbd">the element is specifically meant to indicate user input</a>.
+According to the documentation, the <code>&lt;kbd&gt;</code> element is normally displayed in a
+monotype font, but I was sad to find out that Octopress&rsquo;s default theme uses
+some kind of CSS reset that makes it look just like normal text.</p>
+
+<p>I tried hunting that reset down, but it was surprisingly hard to find. So I took
+a different approach. I looked at the style rules for the <code>&lt;code&gt;</code> element, which
+is what I wanted <code>&lt;kbd&gt;</code> to look like. This is what I found, in the generated
+CSS:</p>
+
+<p>```css
+p code, li code {</p>
+
+<pre><code>background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 0.4em;
+color: #555555;
+display: inline-block;
+font-size: 0.8em;
+line-height: 1.5em;
+margin: -1px 0;
+padding: 0 0.3em;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>I wanted to get the <code>kbd</code> style to have the same rules. What to do? Well, as it
+turns out, Sass has an extend feature, which <a href="http://devdocs.io/sass/index#extend">according to the documentation</a>,
+tells the compiler &ldquo;that one selector should inherit the styles of another
+selector.&rdquo; That was exactly what I wanted—I wanted <code>kbd</code> to have all the same
+styles as <code>code</code>.</p>
+
+<p>Octopress uses Sass for its styling. It also makes things really easy by providing
+an extra <code>_styles.scss</code> file inside the <code>sass/custom</code> directory, and the comments
+inside explain that this file is compiled very last, so anything declared there
+overrides previous rules. Or, more important in this case, they can <em>extend</em>
+previous rules.</p>
+
+<p>So all I had to do was add this simple rule to the file:</p>
+
+<p>```scss sass/custom/_styles.scss
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much</p>
+
+<p>// Style kbd tags the same as code tags
+kbd {</p>
+
+<pre><code>@extend code;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>When I looked at the compiled code, I saw that Sass did exactly what it said
+it would do:</p>
+
+<p>```css
+p code, p kbd, li code, li kbd {</p>
+
+<pre><code>background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 0.4em;
+color: #555555;
+display: inline-block;
+font-size: 0.8em;
+line-height: 1.5em;
+margin: -1px 0;
+padding: 0 0.3em;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>The <code>kbd</code> selectors were added right there to the same block as the <code>code</code>
+selectors! How cool is that? It took just three lines of code (or one, if you
+want to squish them together, but you shouldn&rsquo;t because that&rsquo;s what preprocessors
+are for) to solve my problem, but after compilation, just a tiny bit was added
+to the overall code. No bloat.</p>
+
+<p>The bottom line is that Sass is awesome. I know that there are other CSS
+preprocessors out there—<a href="http://lesscss.org/">LESS</a> and <a href="http://learnboost.github.io/stylus/">Stylus</a> probably being the biggest ones—and
+they probably have analogous features, but Sass just happens to be the one I
+went with first, so I can speak to how awesome it is. If your favorite
+preprocessor can do the same thing and all sorts of other amazing things, more
+power to you.</p>
+
+<p>The real moral of the story here is that you should definitely be using a CSS
+preprocessor if you aren&rsquo;t already. It makes coding CSS so much more pleasant
+(dare I say fun?) and if used correctly can make your code a lot cleaner too.</p>
+]]></content>
+  </entry>
+  
+</feed>

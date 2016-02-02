@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Resources | Garrett Nay]]></title>
+  <link href="http://garrettn.github.io/blog/categories/resources/atom.xml" rel="self"/>
+  <link href="http://garrettn.github.io/"/>
+  <updated>2016-02-02T07:48:14-07:00</updated>
+  <id>http://garrettn.github.io/</id>
+  <author>
+    <name><![CDATA[Garrett Nay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Battle of the Clouds: Koding vs. Codio]]></title>
+    <link href="http://garrettn.github.io/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio/"/>
+    <updated>2014-07-07T21:05:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio</id>
+    <content type="html"><![CDATA[<div class="caption-wrapper right"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/puffyclouds3.jpg" title="Clouds" alt="Photo of sunlight shining through clouds" height="240" width="320"><span class="caption-text">Image from <a href="http://www.freenaturepictures.com/cloud-pictures.php">FreeNaturePictures.com</a></span></div>
+
+
+<p>Today I&rsquo;d like to talk about two different cloud <abbr title="Integrated Development Environments">IDEs</abbr> that I&rsquo;ve had the chance to use, <a href="https://koding.com">Koding</a> and <a href="https://codio.com">Codio</a>, and the pros and cons of each. I know that cloud IDEs aren&rsquo;t really new at this point, and these two that I&rsquo;m talking about certainly aren&rsquo;t the only ones out there, but I&rsquo;ve only recently gotten into this game. Hopefully my perspective will help you if you&rsquo;re trying to decide on a cloud IDE to go with.</p>
+
+<p><strong>Spoiler:</strong> I prefer Codio and use it quite a bit. What you get for the price is great, and overall it seems faster and more polished than Koding.</p>
+
+<!-- more -->
+
+
+<h2>Why Use a Cloud IDE?</h2>
+
+<p>As I said before, cloud IDEs aren&rsquo;t really new anymore&mdash;<a href="https://c9.io">Cloud9</a>, one of the biggest names in the industry, has been around since 2009&mdash;but only recently have I become interested in them. I had plenty of doubts at first. For one thing, I didn&rsquo;t like the idea of putting my data, my work, into someone else&rsquo;s hands. This goes along with my wariness of cloud services in general. I want to own my own data and not have to rely on some service making it available to me, not to mention having to trust that they won&rsquo;t, you know, hand it over to the NSA or something.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Another major obstacle was the cost. Most cloud IDEs cost money and, like many web-based services, operate on monthly or yearly subscriptions. That&rsquo;s a big deal to someone who doesn&rsquo;t have a lot of extra money to throw around. If you&rsquo;re a student or just getting started in this industry, I feel your pain. When I was a student, my budget could be summed up as &ldquo;Spend as little as possible.&rdquo; It was hard to justify paying for, much less paying <em>monthly</em> for, a service that I just thought might be cool.</p>
+
+<p>So why bother with cloud IDEs at all? The biggest draw for me was portability. All you need to use these services is a web browser. That&rsquo;s really cool when you think about it. You get a whole environment, complete with editor and any server-side dependencies you might need, without having to install a single thing on your own computer. You don&rsquo;t even have to work on your own computer. You could, for example, <a href="http://portableapps.com">install a portable browser on a USB key</a>, plug that in at the library, and you&rsquo;re off to the races!</p>
+
+<p>This portability is what I needed when I faced an interesting situation at work. Finding myself with some spare time, I had some ideas I wanted to experiment with that weren&rsquo;t part of our normal development environment. Unfortunately, the corporate firewall and proxy policies make it very cumbersome for any application other than browsers (e.g., Git, npm, Composer) to connect to the Internet. Also, since I&rsquo;m used to developing on Linux for my own projects, it was difficult for me to set up the environment I needed on Windows, which I have to use at work.</p>
+
+<p>A cloud IDE alleviates these problems. I don&rsquo;t have to install any additional software on my machine, and since everything is done through the browser, I don&rsquo;t have to worry about maneuvering through the proxy, thereby risking breaking company policies. (It&rsquo;s sad that I have to worry about that when what I&rsquo;m doing will benefit the company, but such is the obstacle I face.) A cloud IDE enormously simplifies that process of setting up a project with all its dependencies so I can hit the ground running. That&rsquo;s what drew me in.</p>
+
+<p>Now that I&rsquo;ve talked about why you might want to use a cloud IDE, let&rsquo;s look at a couple of them, starting with Koding.</p>
+
+<h2>Koding: Free, and Don&rsquo;t You Forget It!</h2>
+
+<p>What attracted me to <a href="https://koding.com">Koding</a> is that it&rsquo;s free. True, it does have <a href="https://koding.com/Pricing">paid options</a>, but what really make Koding unique is that you can create (reasonably) unlimited public and private projects at no cost. Not bad!</p>
+
+<p>When you start out with Koding, you get your own virtual machine to develop on. This is a Ubuntu server that you get full shell access to, either through their online terminal or through SSH. And when I say full shell access, I mean it&mdash;you can do absolutely anything you want on it, including stuff that requires root access.</p>
+
+<p>These machines are already set up with the resources you need to do most web projects, including Apache, PHP, MySQL, Ruby, Node.js, Perl, and Python. You&rsquo;re certainly not limited to that list, however, since you can install anything you want on the VM. Also, out of the box you&rsquo;re set up with your own subdomain that follows the pattern <code>[username].kd.io</code>, and you&rsquo;re free to set up any number of subdomains of that subdomain that point to wherever you want on your machine.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/koding-hello-world.png" alt="Screenshot of Koding's default server page" height="600" width="800"><span class="caption-text">Your Koding VM is already set up with the most popular web server software.</span></div>
+
+
+<p>Upon logging in to Koding, you&rsquo;re greeted with a tabbed interface that includes &ldquo;Activity&rdquo;, &ldquo;Teamwork&rdquo;, &ldquo;Terminal&rdquo;, &ldquo;Ace&rdquo; (editor), and &ldquo;Apps.&rdquo; You start out on the activity feed. Koding places a large emphasis on collaboration, especially learning how to code together. The &ldquo;Teamwork&rdquo; tab provides an environment for doing so, but I have to admit that I haven&rsquo;t used it, because this aspect of the service doesn&rsquo;t really interest me. From what it looks like, though, you can start up a Teamwork session, using some kind of app template if you want, and then invite others to work on it with you through the activity feed. Then you can work on the project together in real time and send chat messages back and forth. It seems like a cool idea, although something I haven&rsquo;t really had use for yet.</p>
+
+<p>The editor is pretty nice. It appears to be the <a href="http://ace.c9.io">Ace Editor</a>, which, interestingly enough, is an open-source project developed and maintained by Cloud9. It does what you need it to, for the most part, but if you&rsquo;re coming from a more advanced desktop editor like Sublime Text, you might find yourself missing some features.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/koding-ace.png" alt="Screenshot of Koding's Ace Editor" height="600" width="800"><span class="caption-text">Koding's Ace Editor</span></div>
+
+
+<p>Overall, Koding is a pretty good development environment, and I&rsquo;m frankly stunned that they give you access to all these resources for free.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>Similarly, the interface seems a bit laggy a lot of the time. Now, I don&rsquo;t think any web-based IDE is ever going to be as responsive as working on your own machine (and anyone who tells you otherwise is probably lying), but the latency in Koding gets frustrating at times. Your VM can take quite a while to boot up, and both the terminal and the editor can show noticeable lag. I&rsquo;ve heard that <a href="http://oldpapyrus.wordpress.com/2014/02/17/koding/">it&rsquo;s the same when you access your VM through SSH</a>. To be fair, it&rsquo;s been a few weeks since I&rsquo;ve really used Koding, so things might have changed, but that was my impression.</p>
+
+<p>Finally, the VMs on Koding run Ubuntu 13.04, <a href="https://wiki.ubuntu.com/Releases">which reached end of life on January 27 this year</a>. It may have been the latest Ubuntu version when Koding was released to the public, but I think it was a strange choice not to go with a long-term support release. I assumed that once 14.04 (which is LTS) was released that Koding would upgrade, but two-and-a-half months later, I have yet to see that happen.</p>
+
+<p>If you take a look at <code>/etc/apt/sources.list</code> on your Koding VM, you&rsquo;ll see that the official Ubuntu repositories have been replaced with some mirrors provided by Koding themselves, so if you run an upgrade with APT, you&rsquo;ll get no warning about your Ubuntu version no longer being supported. I suppose it&rsquo;s not a huge deal, but it still bothers me. I&rsquo;ve even tried, <a href="https://koding.com/Activity/how-can-i-upgrade-my-vm-ubuntu-1404-i-execute-next-command-but-repositories-return">along with others</a>, to force an upgrade to 14.04, but it never went well.</p>
+
+<h3>Koding: Summary</h3>
+
+<h4>Pros</h4>
+
+<ul>
+<li>Free for unlimited public and private projects.</li>
+<li>Full shell access to your VM (including root).</li>
+<li>VM comes preconfigured with software for most web projects.</li>
+<li>Easy collaboration.</li>
+<li>Decent editor.</li>
+</ul>
+
+
+<h4>Cons</h4>
+
+<ul>
+<li>Servers are unreliable.</li>
+<li>Interface can be laggy.</li>
+<li>Uses outdated, unsupported Ubuntu version.</li>
+</ul>
+
+
+<h2>Codio: A Polished Experience at a Reasonable Cost</h2>
+
+<p>When I realized that Koding might not be the best for me, I started looking around at other options. Out of all the cloud IDEs I looked at (check out <a href="https://docs.google.com/spreadsheet/ccc?key=0An6rx68cKNFNdDNYdFdSSTNzZXl5eGRSY0ZxSW10aHc&amp;usp=drive_web#gid=1">this spreadsheet</a> for a partial list), Codio had the <a href="https://codio.com/s/pricing">pricing plan</a> that made the most sense to me.</p>
+
+<p>Codio is free for public and open-source projects. For just eight dollars a month, you get <em>unlimited</em> private projects. <a href="https://c9.io/site/pricing/">Compare that to Cloud9</a>, where you pay 19 dollars a month and are still limited to six private projects. In addition, Codio gives you one private project on the free plan. That was enough to get me to try it out.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<p>To create a new project, you click on the &ldquo;Create Project&rdquo; button, and you&rsquo;re presented with a number of options for getting started. You can use a template such as <a href="http://html5boilerplate.com">HTML5 Boilerplate</a>, clone a Git or Mercurial repository, import a Zip file, connect to a server via (S)FTP, or use Salesforce (no idea how that works). You can choose to start a blank project under &ldquo;templates.&rdquo;</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/codio-create-project.png" alt="Screenshot of Codio's create project page" height="571" width="716"><span class="caption-text">You have a lot of options when creating a project in Codio.</span></div>
+
+
+<p>The actual IDE feels almost like a desktop application, both in responsiveness and in features. The window is divided up into panels, which you can organize and resize however you like, and those panels contain tabs, which contain the actual stuff you work with, like files, terminals, preferences, and so on. Tabs can be moved around from panel to panel.</p>
+
+<p>The Codio editor features a command bar, made popular by Sublime Text, which makes it easy to access any command or menu option through the keyboard.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/codio-ide.png" alt="Screenshot of Codio's IDE" height="521" width="800"><span class="caption-text">Codio's IDE is fast, full-featured, and flexible.</span></div>
+
+
+<p>Each project has a configuration file where you can set up how to preview your project through the web. You can set up both static and dynamic preview URLs, and then these options are available through a convenient menu. One cool feature with the preview URLs is that if the server is listening on a non-standard port, you can access it at either <code>[subdomain].codio.io:[port]</code> or <code>[subdomain]-[port].codio.io</code>. That means if you have a proxy blocking every port besides 80 and 443, you can still access it. When you use the second URL option, Codio will route you to the right place. Pretty cool!</p>
+
+<p>I could go on and on about Codio&rsquo;s features (in their own words, they have &ldquo;More features than hairs on Chuck Norris chest [sic]!&rdquo;), but let&rsquo;s turn now to some potential downsides. The only ones I can think of aren&rsquo;t really that serious, and new features are being added all the time, so the downsides might not even be around for too long.</p>
+
+<p>First of all, unlike Koding, you don&rsquo;t get root access to your VMs on Codio, so you can&rsquo;t install whatever the heck you want. However, Codio mostly makes up for this with a feature called <a href="https://codio.com/s/docs/boxes/box-parts/">box parts</a>, which is a sort of package manager that can install <a href="https://github.com/codio/boxparts/tree/master/lib/autoparts/packages">pretty much anything you&rsquo;d need</a> for a web project, right into your home directory. The team also takes requests for additional box parts.</p>
+
+<p>Second, I&rsquo;ve noticed a bug with the tooltips. The editor has a nice feature where it shows tooltips with descriptions of variables and functions as you type them. The only problem is that sometimes those tooltips don&rsquo;t go away. They can get pretty irritating, and the only way I&rsquo;ve found to get rid of them besides refreshing is to delete their DOM elements from the browser developer tools.</p>
+
+<p>There are also some features that I&rsquo;d like to see, like <a href="http://editorconfig.org">EditorConfig</a> support and Sublime-style snippets. But I&rsquo;m confident that those features will show up eventually. The Codio team pays close attention to <a href="http://forum.codio.com/category/feature-request">feature requests</a>. In fact, soon after I signed up for Codio, I got an e-mail from Ian Jobling, who I believe is the lead developer. We then had a nice chat on IRC (#codio channel on Freenode) about my experience so far with the product, and he explained to me how to get my feature requests noticed by the team. The people at Codio clearly care about what their users want.</p>
+
+<p>Surround your pullquote like this {" text to be quoted "}</p>
+
+<h3>Summary: Codio</h3>
+
+<h4>Pros</h4>
+
+<ul>
+<li>Free for public projects, $8/month for unlimited private projects.</li>
+<li>Isolated environments for each project, which can be cloned.</li>
+<li>VMs that boot up quickly.</li>
+<li>Full-featured, responsive editor.</li>
+<li>Access to non-standard ports, even if your network blocks them.</li>
+</ul>
+
+
+<h4>Cons</h4>
+
+<ul>
+<li>$8/month for private projects.</li>
+<li>No root access to VMs (but remember box parts).</li>
+<li>Bug where tooltips don&rsquo;t go away.</li>
+</ul>
+
+
+<h2>Conclusion</h2>
+
+<p>A year ago, I didn&rsquo;t think I would be saying this, but I think the whole cloud IDE idea is pretty cool, and more than that, it&rsquo;s quite useful. That said, I still don&rsquo;t use cloud IDEs exclusively. I still prefer to develop locally when I can. I still love my Sublime Text (although I&rsquo;m slowly getting wooed by Atom). And it&rsquo;s just fun to hack on my own computer.</p>
+
+<p>But sometimes I don&rsquo;t have my own computer with me, and that&rsquo;s when a cloud IDE really comes in handy. And when it comes to cloud IDEs, I think Codio is a great choice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[@extend: One Reason I Love Sass]]></title>
+    <link href="http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass/"/>
+    <updated>2013-12-16T19:19:50-07:00</updated>
+    <id>http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass</id>
+    <content type="html"><![CDATA[<p>As I was working on my last post, I re-discovered a feature of <a href="http://sass-lang.com">Sass</a> that
+reminded me of why it&rsquo;s so great.</p>
+
+<!-- more -->
+
+
+<p>I realized that when I was writing what the user should type (like <kbd>git pull</kbd>),
+I should probably be using the <code>&lt;kbd&gt;</code> element instead of the regular code
+backticks in Markdown, because <a href="http://devdocs.io/html/kbd">the element is specifically meant to indicate user input</a>.
+According to the documentation, the <code>&lt;kbd&gt;</code> element is normally displayed in a
+monotype font, but I was sad to find out that Octopress&rsquo;s default theme uses
+some kind of CSS reset that makes it look just like normal text.</p>
+
+<p>I tried hunting that reset down, but it was surprisingly hard to find. So I took
+a different approach. I looked at the style rules for the <code>&lt;code&gt;</code> element, which
+is what I wanted <code>&lt;kbd&gt;</code> to look like. This is what I found, in the generated
+CSS:</p>
+
+<p>```css
+p code, li code {</p>
+
+<pre><code>background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 0.4em;
+color: #555555;
+display: inline-block;
+font-size: 0.8em;
+line-height: 1.5em;
+margin: -1px 0;
+padding: 0 0.3em;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>I wanted to get the <code>kbd</code> style to have the same rules. What to do? Well, as it
+turns out, Sass has an extend feature, which <a href="http://devdocs.io/sass/index#extend">according to the documentation</a>,
+tells the compiler &ldquo;that one selector should inherit the styles of another
+selector.&rdquo; That was exactly what I wanted—I wanted <code>kbd</code> to have all the same
+styles as <code>code</code>.</p>
+
+<p>Octopress uses Sass for its styling. It also makes things really easy by providing
+an extra <code>_styles.scss</code> file inside the <code>sass/custom</code> directory, and the comments
+inside explain that this file is compiled very last, so anything declared there
+overrides previous rules. Or, more important in this case, they can <em>extend</em>
+previous rules.</p>
+
+<p>So all I had to do was add this simple rule to the file:</p>
+
+<p>```scss sass/custom/_styles.scss
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much</p>
+
+<p>// Style kbd tags the same as code tags
+kbd {</p>
+
+<pre><code>@extend code;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>When I looked at the compiled code, I saw that Sass did exactly what it said
+it would do:</p>
+
+<p>```css
+p code, p kbd, li code, li kbd {</p>
+
+<pre><code>background: none repeat scroll 0 0 #FFFFFF;
+border: 1px solid #DDDDDD;
+border-radius: 0.4em;
+color: #555555;
+display: inline-block;
+font-size: 0.8em;
+line-height: 1.5em;
+margin: -1px 0;
+padding: 0 0.3em;
+</code></pre>
+
+<p>}
+```</p>
+
+<p>The <code>kbd</code> selectors were added right there to the same block as the <code>code</code>
+selectors! How cool is that? It took just three lines of code (or one, if you
+want to squish them together, but you shouldn&rsquo;t because that&rsquo;s what preprocessors
+are for) to solve my problem, but after compilation, just a tiny bit was added
+to the overall code. No bloat.</p>
+
+<p>The bottom line is that Sass is awesome. I know that there are other CSS
+preprocessors out there—<a href="http://lesscss.org/">LESS</a> and <a href="http://learnboost.github.io/stylus/">Stylus</a> probably being the biggest ones—and
+they probably have analogous features, but Sass just happens to be the one I
+went with first, so I can speak to how awesome it is. If your favorite
+preprocessor can do the same thing and all sorts of other amazing things, more
+power to you.</p>
+
+<p>The real moral of the story here is that you should definitely be using a CSS
+preprocessor if you aren&rsquo;t already. It makes coding CSS so much more pleasant
+(dare I say fun?) and if used correctly can make your code a lot cleaner too.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Manage Your Dotfiles Easily With Git and Homeshick]]></title>
+    <link href="http://garrettn.github.io/blog/2013/12/10/manage-your-dotfiles-easily-with-homeshick/"/>
+    <updated>2013-12-10T15:31:03-07:00</updated>
+    <id>http://garrettn.github.io/blog/2013/12/10/manage-your-dotfiles-easily-with-homeshick</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a while since my last post, and one reason for that is that I spent
+some time upgrading to Ubuntu 13.10 and configuring my new system. It may be a
+bad idea, but for some reason I prefer doing a fresh install rather than directly
+upgrading when a new version of Ubuntu is released. But as fun as it can be to
+configure a shiny new system, I&rsquo;ve learned that I really need a more systematic
+way to keep track of some of the more repetitive tasks. One very useful tool I
+found for doing this is called <a href="https://github.com/andsens/homeshick">Homeshick</a>.</p>
+
+<!-- more -->
+
+
+<p>That&rsquo;s not a typo: Homeshick is a tool similar to the better-known <a href="https://github.com/technicalpickles/homesick">Homesick</a>,
+but instead of being a Ruby gem, it&rsquo;s written in pure Bash&mdash;hence the &ldquo;sh.&rdquo; It
+took me a while to decide which one to use, but since I need my dotfiles set up
+before I can start using Ruby (since I use <a href="https://github.com/sstephenson/rbenv">rbenv</a>), it makes more sense for
+me to use the version that takes nothing more than running a shell script.</p>
+
+<p>Homeshick makes it very easy to track your important dotfiles and synchronize
+them between computers.</p>
+
+<h2>What Are Dotfiles, and Why Should You Track Them?</h2>
+
+<p>Dotfiles are, simply put, files that begin with a dot. On UNIX-like operating
+systems, like GNU/Linux and OS X, dotfiles are hidden by default. That means
+your file manager and your command line shell won&rsquo;t show them unless you
+specifically tell them to.</p>
+
+<p>For example, in Ubuntu&rsquo;s file manager you can hit <kbd>ctrl+h</kbd>, and you&rsquo;ll
+see files like these:</p>
+
+<p><img class="center" src="/images/posts/homeshick/hidden-files-nautilus.png" width="765" height="446" title="Hidden files in Nautilus" ></p>
+
+<p>On the command line, you can use the <kbd>-a</kbd> flag with the <kbd>ls</kbd>
+command to show hidden files in the current working directory:</p>
+
+<p>```
+user@computer:~$ ls -a
+.              .compiz    Dropbox          .ICEauthority  .pki           .steampid       .Xauthority
+..             .config    .gconf           .icons         .profile       Templates       .xsession-errors
+.adobe         .dbus      .gem             .local         Public         .thunderbird    .xsession-errors.old
+.bash_aliases  Desktop    .gitconfig       .macromedia    .pulse-cookie  tmp
+.bash_history  Dev        .gksu.lock       .mozilla       .pyenv         Ubuntu One
+.bash_logout   .dmrc      .gnome2          Music          .rbenv         .unison
+.bashrc        Documents  .gnome2_private  .npm           .ssh           .vagrant.d
+Books          Downloads  .grabMyBooks     .nvm           .steam         Videos
+.cache         .dropbox   .homesick        Pictures       .steampath     VirtualBox VMs</p>
+
+<p>```</p>
+
+<p>That&rsquo;s great, but what do these dotfiles <em>do</em>? Well, all sorts of things. I
+showed <a href="/blog/2013/10/21/run-programs-from-your-home-directory-in-ubuntu/">in a previous post</a> how some files, like <code>.profile</code> and <code>.bashrc</code>, let
+you set environment variables. But that&rsquo;s just the beginning. You can set Bash
+aliases, define functions, customize the prompt, and more. And those are just
+the files dealing with the shell. Some dotfiles deal with specific programs,
+like Git or npm.</p>
+
+<p>The bottom line is that if you&rsquo;re a developer, you&rsquo;re very likely to find
+yourself customizing many of these files to make your work easier (or <em>possible</em>,
+even). And if you happen to work on multiple machines (such as at home and at
+work), or if you migrate to a new machine or OS like I did, you&rsquo;re going to find
+it very tedious to keep editing these files over and over to make them the same.</p>
+
+<p>There has to be a better way, right? You&rsquo;re in luck! There is a better way&mdash;it&rsquo;s
+called Homeshick.</p>
+
+<h2>Installing Homeshick</h2>
+
+<p>Since Homeshick is just a Bash script (or a small collection of scripts), you
+don&rsquo;t really need to install it like a regular application. You just need to put
+it in a place where you can access it. All it takes is a simple Git clone:</p>
+
+<p><code>
+$ git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick
+</code></p>
+
+<p>This command simply clones the Homeshick repository to a hidden directory inside
+your home directory. An added benefit of using Git to clone it is that you can
+keep it up to date easily with a <kbd>git pull</kbd>.</p>
+
+<p>Notice how the top-level directory is called <code>.homesick</code>. The developer
+<a href="https://github.com/andsens/homeshick/wiki/Tutorials#bootstrapping">says this is intentional</a> for compatibility with Homesick.</p>
+
+<p>Now you have access to the Homeshick script. You can start using immediately by
+sourcing it:</p>
+
+<p><code>
+$ source "$HOME/.homesick/repos/homeshick/homeshick.sh"
+</code></p>
+
+<p>This command will load a <code>homeshick()</code> function into your shell session. Of course,
+you&rsquo;ll want to have access to this function every time you open a shell session
+without having to source it manually, so you should add the line to your <code>.bashrc</code>:</p>
+
+<p><code>
+$ printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' &gt;&gt; $HOME/.bashrc
+</code></p>
+
+<p>Now you&rsquo;ll be able to call <code>homeshick</code> every time you open up the terminal.</p>
+
+<h2>Tracking Your Dotfiles</h2>
+
+<p>Homeshick and Homesick both revolve around what they call &ldquo;castles"—a reference
+to the saying "A man&rsquo;s home is his castle.&rdquo; A castle is a Git repository where
+you store dotfiles. It has a particular structure, but you don&rsquo;t need to worry
+about that because you can have Homeshick create one for you.</p>
+
+<p><code>
+$ homeshick generate dotfiles
+</code></p>
+
+<p>Here, I created a new castle called dotfiles, but you can call them whatever you
+want. You could even have separate castles for different purposes, like one for
+Bash files, one for Git configurations, and so on. Go crazy!</p>
+
+<p>For me, so far, having one central castle is enough. So once you have a castle
+created, you can start telling Homeshick to track whatever dotfiles you want.
+How? You guessed it—with <kbd>homeshick track</kbd>.</p>
+
+<p><code>
+$ homeshick track dotfiles .bashrc
+</code></p>
+
+<p>Here you&rsquo;re telling Homeshick to track your <code>.bashrc</code> (since you&rsquo;ve customized
+it to include Homeshick and want to save the changes) in your <code>dotfiles</code> castle.
+As a result, Homeshick moves the file into the castle&rsquo;s directory and then
+creates a symbolic link in its original location pointing to it.</p>
+
+<p>What&rsquo;s so great about that, you ask? As I said before, the castle is a Git
+repository, so now that the actual file is inside it, you can take advantage of
+Git to keep track of your changes to it—and easily back it up to a remote
+location. For example if you <a href="https://github.com/search?q=dotfiles&amp;ref=cmdform">search for dotfiles on GitHub</a> you&rsquo;ll come up
+with roughly seven bazillion results. Developers love their dotfiles repos! I,
+myself, don&rsquo;t feel the need to publish my own dotfiles for the world to see, so
+I host mine in a private repository on Bitbucket. Whatever you do is up to you.</p>
+
+<p>To look inside your castle, you can use a shortcut provided by Homeshick:</p>
+
+<p><code>
+$ homeshick cd dotfiles
+</code></p>
+
+<p>Unless you&rsquo;ve altered the code somehow, this is the same as typing
+<kbd>cd ~/.homesick/repos/dotfiles</kbd>. But the Homeshick version is nicer,
+wouldn&rsquo;t you say?</p>
+
+<p>And now that you&rsquo;re inside the directory, you can do all the normal Git stuff.
+In this example, since you just started tracking <code>.bashrc</code> you&rsquo;ll see it here
+as a new file staged for committing:</p>
+
+<p>```
+$ git status
+On branch master</p>
+
+<p>Initial commit</p>
+
+<p>Changes to be committed:
+  (use &ldquo;git rm &mdash;cached <file>&hellip;&rdquo; to unstage)</p>
+
+<pre><code>new file:   home/.bashrc
+</code></pre>
+
+<p>```</p>
+
+<p>Notice how the file is inside <code>home</code> directory. That&rsquo;s how Homeshick and Homesick
+both structure their castles.</p>
+
+<h2>Never Feel Homes(h)ick Again</h2>
+
+<p>So that&rsquo;s the basics of getting started with Homeshick. Once you&rsquo;ve pushed your
+castle to a remote repository, it&rsquo;s easy to incorporate those dotfiles into a
+new system. Homeshick even provides a <kdb>clone</kdb> command for that purpose.</p>
+
+<p>I&rsquo;ve barely scratched the surface of what you can do with Homeshick—see
+<a href="https://github.com/andsens/homeshick/wiki">the official documentation</a> for more details. The point is that Homeshick
+makes it easy to keep track of those precious dotfiles. And they really are
+precious to a developer, as I&rsquo;m beginning to discover!</p>
+
+<p>Don&rsquo;t forget, also, that since this tool uses Git, you can harness Git&rsquo;s
+capabilities to make your dotfiles repo fit your needs. Specifically, remember
+branching. My main computer runs Ubuntu, but a while back I was thinking about
+trying out a different Linux distribution on another machine. At first I thought
+I would have to create a separate castle for that distro, but then I
+remembered—Git has branching! You can have a branch for Ubuntu, a branch for
+Arch, a branch for OS X, or whatever, and thus take advantage of the similarities
+between systems while preserving the differences, <em>and</em> keep it all in one
+place. It&rsquo;s beautiful.</p>
+
+<p>So there you go. Homeshick. Use it. Or maybe you have your own preferred system
+for tracking your dotfiles (<a href="http://dotfiles.github.io/">and there are many</a>). What have you found works
+for you? Let me know in the comments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amazing Resource DevDocs Goes Open Source]]></title>
+    <link href="http://garrettn.github.io/blog/2013/10/25/amazing-resource-devdocs-goes-open-source/"/>
+    <updated>2013-10-25T07:39:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/25/amazing-resource-devdocs-goes-open-source</id>
+    <content type="html"><![CDATA[<p><a href="http://devdocs.io">DevDocs</a>, the all-in-one API documentation tool for web
+developers, released <a href="https://github.com/Thibaut/devdocs">its code on GitHub</a> yesterday, officially becoming an
+open-source project. This is good news indeed. Now that anybody can contribute
+documentation, this already-amazing resource is only going to get better.</p>
+
+<p>If you are a web developer and aren&rsquo;t using DevDocs, you are seriously missing
+out. Here are a few reasons why.</p>
+
+<!-- more -->
+
+
+<h2>Lots of Documentation All in One Place</h2>
+
+<p><img class="center" src="/images/posts/devdocs/devdocs.png" width="800" height="356" title="The DevDocs interface" ></p>
+
+<p>DevDocs is a one-stop shop for (nearly) all of your documentation needs. It
+includes docs for core web technologies as well as various popular libraries and
+frameworks. This is the current lineup:</p>
+
+<ul>
+<li><p><strong>Core web:</strong> CSS, DOM, DOM Events, HTML, HTTP, JavaScipt</p></li>
+<li><p><strong>Libraries and frameworks:</strong> Angular.js, Backbone.js, Ember.js, jQuery,
+jQuery Mobile, jQuery UI, Lo-Dash, Underscore.js</p></li>
+<li><p><strong>Preprocessors:</strong> Coffeescript, Less, Sass</p></li>
+<li><p><strong>Server:</strong> Node.js, PHP</p></li>
+</ul>
+
+
+<p>Do you use any of those in your development work? I thought so. Have you ever
+needed to look up a particular function signature, or the correct syntax of a
+CSS rule? Quit hunting around on Google and individual websites and use DevDocs!
+You&rsquo;ll find it all here.</p>
+
+<p>For some reason, DevDocs has been a bit of a hard sell to my co-workers. When I
+eagerly showed one of them how all of the documentation we need is here in a
+single place, he just shrugged it off and said when he needs to look at jQuery
+documentation, he goes to the jQuery site, and he knows all the JavaScript
+anyway. That second point may be true (it&rsquo;s definitely not for me yet), but
+what if he needs to check what parameters that PHP function takes, or whether
+that jQuery function is deprecated? Why go to the separate sites when you can
+get it all in one place?</p>
+
+<p>One thing I probably should have stressed when showing it to him is that
+<strong>DevDocs contains exact copies of the official documentations.</strong> Although they
+may be styled a little differently, the content is exactly the same, and so you
+don&rsquo;t need to worry about missing something from the official site. It&rsquo;s all
+there.</p>
+
+<p>And if you&rsquo;re worried that all those documentations will clutter up your search
+results with things you don&rsquo;t need, worry no more. DevDocs allows you to select
+only the docs that you want to use and ignore all the others. You can tailor it
+to your specific work!</p>
+
+<p><img class="center" src="/images/posts/devdocs/select-docs.png" width="287" height="552" title="Select only the documentation you want" ></p>
+
+<h2>Lightning-Fast Fuzzy Searching</h2>
+
+<p>This feature is really what sells it for me. From what I&rsquo;ve seen, DevDocs beats
+any official website&rsquo;s search speed hands down. Results come up instantly as you
+type, and then you can quickly navigate to the right one with the keyboard and
+open it up in the main pane.</p>
+
+<p>But what&rsquo;s really great is that it supports <strong>fuzzy matching</strong>. If you use
+<a href="https://github.com/Thibaut/devdocs">Sublime Text</a>, you know how great fuzzy matching is. What it means is that
+you can type in a string of letters that aren&rsquo;t necessarily contiguous, and it
+will understand what you mean. Say, for example, I want to look up CSS
+transforms. I can just type in <code>tfm</code>, and &ldquo;transform&rdquo; will show up as the first
+entry. Select that one, and I&rsquo;m there. The whole thing took two seconds.</p>
+
+<p><img class="right" src="/images/posts/devdocs/search.png" width="287" height="286" title="Namespacing your searches is easy" ></p>
+
+<p>It&rsquo;s also possible to namespace your searches. As I said before, DevDocs has
+lots of different sets of documentation. If you want to, say, look up information
+about jQuery events, you can type in <code>jq</code> and then a tab. A &ldquo;jQuery&rdquo; label will
+appear in the search field, and from then on your searches will be restricted to
+the jQuery documentation (you can use backspace to get rid of the label and
+restore the scope).</p>
+
+<p>Oh, and you can also query straight from the URL, with our without namespacing.
+Simply add <code>/#q=</code> and your query to the end of the app&rsquo;s URL, and you&rsquo;ll be
+taken to the app with the search field prefilled, with the first result showing
+up in the main pane. To get a namespaced result, simply prefix your query with
+the namespace followed by a space. For example, <code>devdocs.io/#q=js trim</code> takes
+you to <a href="http://devdocs.io/#q=js%20trim">the JavaScript trim function documentation</a>.</p>
+
+<p>However you like to search, I&rsquo;m telling you DevDocs is fast.</p>
+
+<h2>Now It&rsquo;s Open Source</h2>
+
+<p>DevDocs has been out in the wild for several months now, but only yesterday did
+Thibaut Courouble, the developer, release the code for all to see and contribute
+to. This was a big step, and one that he clearly put a lot of thought into.
+There are several benefits to DevDocs being an open-source project.</p>
+
+<p>For one thing, now it is possible to download your own copy of DevDocs and run
+it locally, meaning you don&rsquo;t need an Internet connection for it to work. I
+haven&rsquo;t tried doing that myself, but it could be a great option for some
+developers.</p>
+
+<p>The more obvious benefit is now anybody can contribute to the project, both by
+improving the code of the app itself and by adding new documentation. Thibaut
+has given <a href="https://github.com/Thibaut/devdocs/blob/master/CONTRIBUTING.md">guidelines for contributing</a>, so the way is now open for anyone
+to help. I expect that soon we&rsquo;ll be seeing new documentations being added at an
+accelerated rate, and that can only be a good thing.</p>
+
+<h2>Use DevDocs Already!</h2>
+
+<p>I could talk about other features of DevDocs, such as its mobile interface,
+keyboard shortcuts, and OpenSearch compatibility, but hopefully what I&rsquo;ve
+outlined here gives you reason enough to start using it. Seriously, I can&rsquo;t
+think of any reason why a web developer wouldn&rsquo;t want to use it&mdash;unless you had
+every bit of every documentation memorized.</p>
+
+<p>So <a href="http://devdocs.io">get over there</a> and start using DevDocs to help your work.
+I guarantee it will make you happier as a developer.</p>
+]]></content>
+  </entry>
+  
+</feed>

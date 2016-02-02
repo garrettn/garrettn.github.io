@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Garrett Nay]]></title>
+  <link href="http://garrettn.github.io/atom.xml" rel="self"/>
+  <link href="http://garrettn.github.io/"/>
+  <updated>2016-02-02T07:48:14-07:00</updated>
+  <id>http://garrettn.github.io/</id>
+  <author>
+    <name><![CDATA[Garrett Nay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[I Have Been Learning the Wrong Way]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://garrettn.github.io/blog/2016/02/01/i-have-been-learning-the-wrong-way/"/>
+    <updated>2016-02-01T07:19:10-07:00</updated>
+    <id>http://garrettn.github.io/blog/2016/02/01/i-have-been-learning-the-wrong-way</id>
+    <content type="html"><![CDATA[<p>I recently finished an excellent course titled <a href="https://www.coursera.org/learn/learning-how-to-learn">&ldquo;Learning How to Learn: Powerful mental tools to help you master tough subjects&rdquo;</a>, available for free on <a href="https://www.coursera.org">Coursera</a>. While by most measures the course wasn&rsquo;t particularly demanding—the lectures were short, and the quizzes were easy enough to pass—it did make me take a hard look at how I&rsquo;ve been learning.</p>
+
+<p>It turns out I&rsquo;ve probably been doing it wrong for most of my life.</p>
+
+<!-- more -->
+
+
+<h2>The Easy Path Is an Illusion of Competence</h2>
+
+<p>One of the central ideas of the course is a concept called a &ldquo;chunk,&rdquo; a piece of information that is bound together through meaning. As you create chunks of meaning in your mind, your brain is able to run more efficiently, and you are better prepared to solve larger and more complex problems. Small chunks can be built on to create larger chunks, and so on.</p>
+
+<p>One of the keys to creating effective chunks is practice. Not just any kind of practice, though, but what they call <strong>deliberate practice</strong>. Deliberate practice is when you intentionally and repetitively test yourself on the concepts that are more difficult for you to get the hang of.</p>
+
+<p><span class='pullquote-right' data-pullquote='To really learn something, you need to test yourself on it.'>
+There are a couple things in there that stand out to me. First is that to really learn something, you need to test yourself on it. Simply rereading a book or an
+article is not going to help very much. You&rsquo;ll think you grasp the concept, but as
+soon as you look away, you forget what you thought you learned.
+</span></p>
+
+<p>I&rsquo;m guilty of this all the time. I love to read blog articles related to web development. But usually I only read them, and then I&rsquo;m done. I&rsquo;m satisfied that I&rsquo;ve learned whatever the article was teaching. But then when I move to the next article—surprise!—I&rsquo;ve already forgotten what I&rsquo;d read about before. In contrast, the simple act of looking away from your reading and trying to recite the main points in your head can actually help you cement the concepts in your brain, creating chunks that you can use later when you need them.</p>
+
+<p><span class='pullquote-right' data-pullquote='To achieve true mastery, you must practice the concepts that are difficult for you.'>
+The second thing I found important is that it&rsquo;s not enough to test yourself on just anything. It&rsquo;s easy to fall into the trap of practicing the things that you&rsquo;ve already got, the things that are easy for you. It&rsquo;s fun, but it doesn&rsquo;t help you learn. To achieve true mastery, you must practice the concepts that are difficult for you. It sounds obvious, but it is something I&rsquo;ve generally avoided doing throughout my learning, both in school and after. I&rsquo;ve had the tendency to take the easy path, to do things that come more easily to me. And all too often, once things become difficult, I give up. But if I want to become truly good at something, like programming, I have to do the hard things. By definition it&rsquo;s not easy, but it becomes easier the more you work on it. Of course, once it becomes too easy, it&rsquo;s time to work on something harder.
+</span></p>
+
+<h2>It&rsquo;s Not Too Late to Change</h2>
+
+<p>The good news is it&rsquo;s not too late to change the way I learn. Even though I&rsquo;m not in school anymore, I&rsquo;m never done learning. And I believe it&rsquo;s never too late to become an expert in something.</p>
+
+<p><span class='pullquote-right' data-pullquote='Barbara Oakley, one of the professors of the course, said, &#8220;People believe that what they&#8217;re naturally good at is what they&#8217;re supposed to be doing in life, but &#8230; passions can broaden, change, and grow.&#8221;'>
+Barbara Oakley, one of the professors of the course, said, &ldquo;People believe that what they&rsquo;re naturally good at is what they&rsquo;re supposed to be doing in life, but &hellip; passions can broaden, change, and grow.&rdquo; Dr. Oakley herself is a great example of this idea. She grew up being pretty bad at math and hating it, but now she is a professor of mechanical engineering.
+</span></p>
+
+<p>It gives me hope to know that even if I am not initially all that great at something, I still can become good at it. All it takes, basically, is persistence and deliberate practice. Lots and lots of deliberate practice.</p>
+
+<h2>So What&rsquo;s Next?</h2>
+
+<p>I&rsquo;m excited to take these techniques I&rsquo;ve learned from the course and apply them to learning—<em>really</em> learning—something new. Although I haven&rsquo;t fully committed to it yet, I&rsquo;m interested in starting the <a href="https://github.com/open-source-society/computer-science">Open Source Society University computer science track</a>. I don&rsquo;t have a degree in computer science. It&rsquo;s something I&rsquo;ve always felt was lacking in my education, and it&rsquo;s time I did something about it.</p>
+
+<p>And this time, I&rsquo;m going to learn the right way.</p>
+
+<h2>By the Way</h2>
+
+<p>This blog is long overdue for some love. In the semi-near future, expect to see some neat changes. I&rsquo;m excited about it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Still Not Sure about AngularJS]]></title>
+    <summary><![CDATA[My thoughts and concerns about the AngularJS framework]]></summary>
+    <link href="http://garrettn.github.io/blog/2014/08/19/still-not-sure-about-angularjs/"/>
+    <updated>2014-08-19T08:22:47-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/08/19/still-not-sure-about-angularjs</id>
+    <content type="html"><![CDATA[<p>I had originally planned to title this post &ldquo;I&rsquo;m Starting to Get Sold on AngularJS,&rdquo; but a blog post I read the other day got me thinking again. In <a href="http://blog.andyet.com/2014/08/13/opinionated-rundown-of-js-frameworks">&ldquo;Opinionated Rundown of JS Frameworks&rdquo;</a>, <a href="https://twitter.com/HenrikJoreteg">Henrik Joreteg</a> from <a href="http://andyet.com">&amp;yet</a> gives some interesting critiques of Angular (as well as other JavaScript frameworks) that caused some of my old doubts to resurface. I still think Angular is a very cool framework, and I intend to continue experimenting with it, but I&rsquo;m hesitant to treat it like the only serious player in the game, as so many developers seem to do already.</p>
+
+<!-- more -->
+
+
+<p>In his post, Henrik gives his opinion on the pros and cons of AngularJS, and you can tell he feels pretty strongly about it because the cons are much longer and more detailed. I&rsquo;d like to offer my comments on some of those cons, including my original doubts and how those doubts have evolved.</p>
+
+<h2>1. Learning Angular vs. Learning JavaScript</h2>
+
+<p>Henrik&rsquo;s first concern with Angular is that developers run the risk of gaining skills that are very Angular-specific and not easily translatable to other contexts:</p>
+
+<blockquote><p>Picking Angular means you’re learning Angular the framework instead of how to solve problems in JavaScript. &hellip; I’ve got developers who’s [sic] primary skill is Angular, not necessarily JavaScript.</p></blockquote>
+
+<p>My first reaction to this point was to ask, How is that any different with any other framework? I believe that any time you use a framework to build an application, you&rsquo;re going to have to learn and use some skills that apply to that framwork only. You can&rsquo;t abstract away forever.</p>
+
+<p>But the truth is that Angular is a pretty different beast next to all the other JavaScript frameworks out there. It uses a module system all its own. It chucks a lot of Web standards in favor of creating its own HTML &ldquo;directives&rdquo; to define DOM behavior. It uses dependency injection for <em>everything</em>.</p>
+
+<p>None of these things is necessarily bad (especially the dependency injection). But I can see the risk of becoming so ingrained with &ldquo;the Angular way&rdquo; that you don&rsquo;t know how to do things outside of an Angular app.</p>
+
+<p>I myself resisted learning Angular for a long time. I got wowed by demonstrations at conferences like a lot of people, but I didn&rsquo;t want to put serious effort into learning how to develop with the framework, I think because 1) it&rsquo;s trendy, and I have a natural resistance to trendy things; 2) it&rsquo;s backed by Google, which I have a bit of a &hellip; distaste for (more on that in a future post, possibly); and 3) I didn&rsquo;t want to change, Backbone being my first love in the world of JS frameworks.</p>
+
+<p>Obviously, none of these reasons are good excuses for not expanding my skills and trying my things. I also realized that a lot of companies use AngularJS for their apps, so if I want to stay relevant, I at least have to learn how to use it. So lately I&rsquo;ve been learning what I can.</p>
+
+<p>Turns out, I think Angular is pretty dang cool. It&rsquo;s amazing what you can create with very little setup and configuration. I&rsquo;m also really interested in the <a href="http://ionicframework.com">Ionic Framework for mobile apps</a>, which integrates tightly with Angular.</p>
+
+<p>Ironically, as I started learning Angular, I felt the opposite of what Henrik is expressing here. I believed that working with Angular instead of Backbone would make me a better overall JavaScript developer, mainly because Angular itself doesn&rsquo;t provide any sort of model abstraction. Instead, you usually work with plain old JavaScript objects (POJOs), which requires you to really understand how JavaScript&rsquo;s prototype paradigm really works. But now I&rsquo;m starting to see what he means&mdash;when you consider the framework as a whole, you can really get used to a certain way of developing that relies mainly on Angular skills, as opposed to JavaScript skills.</p>
+
+<p>So is learning Angular worth it? Most definitely. But I want to be careful not to let that be the only way I know how to develop wep applications.</p>
+
+<h2>2. Separation of Concerns</h2>
+
+<p>I have gone back and forth on this issue a lot. Henrik says that Angular violates the principle of <a href="http://en.wikipedia.org/wiki/Separation_of_concerns">separation of concerns</a> because of its HTML directives:</p>
+
+<blockquote><p>In Angular you spend a lot of time describing behavior in HTML instead of JS. For me personally, this is the deal breaker with Angular. I don’t want to describe application logic in HTML, it’s simply not expressive enough because it’s a markup language for structuring documents, not describing application logic.</p></blockquote>
+
+<p>I totally felt the same way at first. When I saw those <code>ng-click</code> directives, I thought, How are those any different from the <code>onclick</code> HTML attributes that are so looked down upon nowadays?</p>
+
+<p>There&rsquo;s at least one big difference, actually, and that is that the expressions inside Angular directives are always contained within the scope of their controller, whereas the <code>onclick</code> attribute operates within the global scope. The whole concept of scope in Angular is pretty cool.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="c">&lt;!-- This click handler calls the global addItem function --&gt;</span>
+</span><span class='line'><span class="nt">&lt;button</span> <span class="na">onclick=</span><span class="s">&quot;addItem(item)&quot;</span><span class="nt">&gt;</span>Add<span class="nt">&lt;/button&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c">&lt;!-- This one calls the addItem function that exists on the $scope object of the controller --&gt;</span>
+</span><span class='line'><span class="nt">&lt;button</span> <span class="na">ng-click=</span><span class="s">&quot;addItem(item)&quot;</span><span class="nt">&gt;</span>Add<span class="nt">&lt;/button&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But there&rsquo;s still the issue of application logic inside the HTML. That does go against what you&rsquo;re traditionally taught about web development. It&rsquo;s funny, though, because Angular developers consider this a major selling point of the framework. And a short while ago I realized, Why not? Why not let the HTML worry about the HTML, so the JavaScript can worry about the data and business logic? On the other hand, it seems bad to let <em>some</em> of the application logic go into the HTML while most of it stays in the JavaScript.</p>
+
+<p>The jury is still out for me on this one. I think both sides make valid points, and I guess what really matters is which approach helps you accomplish the task more effectively.</p>
+
+<h2>3. Magic</h2>
+
+<p>No doubt about it, AngularJS has a lot of <a href="http://en.wikipedia.org/wiki/Magic_%28programming%29">magic</a>. That&rsquo;s what makes it so great for demos. Now some people in the programming community will tell you that magic in a framework is a great thing, while others will say it&rsquo;s a terrible thing. Henrik seems to lean toward the latter camp:</p>
+
+<blockquote><p>Magic comes at a cost. When you’re working with something that’s highly abstracted, it becomes a lot more difficult to figure out what’s wrong when something goes awry. &hellip; I would guess most Angular users lack enough understanding of the framework itself to really feel confident modifying or debugging Angular itself.</p></blockquote>
+
+<p>That describes me pretty well. I am still fairly new to Angular, though, and I have to say that the magic of Angular is pretty impressive. The two-way data binding is, of course, awesome. But one of the coolest features for me is how the dependency injection works. The injector knows what to give you just by what you call the parameter to your function! I have never seen that anywhere else in the JavaScript world.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">&#39;MyApp&#39;</span><span class="p">)</span>
+</span><span class='line'>    <span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="s1">&#39;MainCtrl&#39;</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">$http</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// It knows what $scope and $http are just because you named them that!</span>
+</span><span class='line'>    <span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But as Henrik says, magic comes at a cost. When there is so much happening for you automatically, you have to wonder how much functionality you&rsquo;re including that you don&rsquo;t actually need, which could be a drain on performance. Angular is increasingly separating out its functionality into modules, though, so that may become less of an issue.</p>
+
+<p>Even more to the point, the more magic your framwork provides, the easier it is to remain unaware of what goes on under the hood, making it harder to tailor to your specific needs and harder to optimize. This point goes along with the first one, in that all this magic increases your reliance on the specific framework you use.</p>
+
+<p>That isn&rsquo;t to say that you should avoid any magic or abstraction that frameworks provide (in fact, Henrik makes this point later on in his post). Frameworks exist to make it easier for us to develop better applications more efficiently. They also make it a lot more fun (and Angular is definitely fun to work with). But too much abstraction can be a danger because, in Henrik&rsquo;s words, &ldquo;when you veer off the beaten path, you’re on your own.&rdquo;</p>
+
+<h2>Conclusion: Have I Gotten Anywhere?</h2>
+
+<p>I think I&rsquo;ve proven the premise of the title of this post&mdash;I&rsquo;m just not sure how I feel about AngularJS. It has been fun to learn and explore, certainly. And I think it&rsquo;s important to understand how to develop applications with it on some level at least. Angular obviously isn&rsquo;t going away any time soon. More and more development teams are turning to it, and if I want to be a part of some of the cool work that is going on, I&rsquo;m going to have to speak the language.</p>
+
+<p>Still, I&rsquo;m afraid to go all in and become an Angular developer through and through. Instead I&rsquo;ll focus on becoming a great, well-rounded JavaScript developer who knows how to select and use the best tools for the job at hand.</p>
+
+<p>Perhaps not surprisingly, at the end of the post I&rsquo;ve been referring to, Henrik discusses a new framework created by the people at &amp;yet called <a href="http://ampersandjs.com">Ampersand</a>. Of course they&rsquo;re going to favor their own creation, but I&rsquo;ve been looking at Ampersand the past couple days, and I have to say, it is pretty cool. It&rsquo;s like the new generation of Backbone. I will certainly have more to say about it in a future post.</p>
+
+<p>Until then, keep on learning and keep on coding!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lessons Learned from Creating an Open-Source Library]]></title>
+    <summary><![CDATA[I recently released a simple jQuery plugin, and I learned a lot of valuable lessons in the process.]]></summary>
+    <link href="http://garrettn.github.io/blog/2014/07/12/lessons-learned-from-creating-an-open-source-library/"/>
+    <updated>2014-07-12T09:29:19-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/07/12/lessons-learned-from-creating-an-open-source-library</id>
+    <content type="html"><![CDATA[<p>This past week I released <a href="https://github.com/garrettn/jquery-takeout">a simple jQuery plugin on GitHub</a>. It&rsquo;s nothing special; in fact, I don&rsquo;t imagine very many people ever needing it. But I learned quite a few valuable lessons during the development process&mdash;not just about writing jQuery plugins specifically, but about creating, developing, and releasing a software product and publishing its source code for all the world to see.</p>
+
+<p>I&rsquo;m not necessarily going to say anything groundbreaking here. You&rsquo;ve probably heard many of them before. In fact, I already knew a lot of these things at least on an intellectual level, but there&rsquo;s definitely something different about learning from real experience. I hope these little lessons I&rsquo;ve learned will be helpful to some of you.</p>
+
+<!-- more -->
+
+
+<h2>1. It&rsquo;s best to start small</h2>
+
+<p>I have a lot of ideas for coding projects. Some are pretty grandiose, with all sorts of features, testing suites, API integrations, and so on. But projects like those are pretty hard to get started on, especially for someone like me who is still breaking into the field.</p>
+
+<p>This jQuery plugin was the perfect opportunity for me to get my feet wet. It does just one simple, stupid thing and doesn&rsquo;t have a lot of customization options (for now). It was therefore easy to try things like test-driven development, build tools, and continuous integration. Because the stakes were so low, I wasn&rsquo;t afraid to step into the unknown.</p>
+
+<p>That&rsquo;s what I&rsquo;d recommend if you&rsquo;re starting out in programming. You may have lofty goals for some killer apps that will change the world, but you might want to start with a smaller idea so you can get a feel for good practices and workflows without dealing with too much complexity. With those building blocks in place, you&rsquo;ll then be better prepared to take on bigger projects.</p>
+
+<h2>2. Automation is awesome</h2>
+
+<p>Automation makes software development much more enjoyable. And we have so many resources available to us nowadays.</p>
+
+<p>To get started with my plugin, I used the <a href="https://github.com/yeoman/generator-jquery">jQuery plugin generator</a> for the scaffolding tool <a href="http://yeoman.io">Yeoman</a>, which got me started with most of the structure I needed. I did have to do some tweaking, but it was much easier than starting from scratch. I then relied on <a href="http://gruntjs.com">Grunt</a>, the JavaScript task runner, to automatically take care of my code linting, testing, and building tasks. I even created a custom release task that <a href="https://github.com/vojtajina/grunt-bump">bumps the version number</a> in all the relevant JSON files; builds the release versions of the plugin; <a href="https://github.com/btford/grunt-conventional-changelog">updates the changelog</a>; and commits, tags, and pushes the release to GitHub, all in one go.</p>
+
+<p>With all this automation in place, I can focus on the development of the plugin without worrying about the mundane tasks. You should do the same thing. Automate as much as possible, so you can save your energy for the fun stuff.</p>
+
+<h2>3. Testing brings confidence</h2>
+
+<p>I&rsquo;ve read a lot about test-driven development (TDD), but this was my first chance to really put it into practice. And I&rsquo;m so glad I did.</p>
+
+<p>In TDD (or <abbr title="Behavior-Driven Development">BDD</abbr> or whatever&mdash;I&rsquo;m not going to distinguish), you write a test for what you want the code to do, <em>and then</em> you write the code to make it happen. Essentially, you can&rsquo;t add a feature without writing a test for it first.</p>
+
+<p>The benefits to this approach are many. One is that it forces you to think about what the code <em>really</em> needs to do, so you can leave out the extra, unnecessary stuff. It makes you develop in smaller, (hopefully) better-structured increments. But my favorite benefit is the confidence that comes from knowing for sure whether any change you make will affect your code&rsquo;s ability to function properly. If you&rsquo;ve written your tests well (not that I claim to be great at this yet), and you make some change that breaks your code, you will know right away because your tests tell you.</p>
+
+<p>Even if you don&rsquo;t like writing the tests first, making sure everything has tests really pays off.</p>
+
+<h2>4. It&rsquo;s not going to be perfect</h2>
+
+<p>This point goes along a bit with the first one. I think we all know intuitively that no product is going to be perfect, but you truly have to accept that fact to make any progress, especially when working in open source.</p>
+
+<p>I had been hesitant for a long time to put any code on GitHub, because it&rsquo;s scary to put stuff out there for everyone to see. There are some brilliant programmers out there, and if they saw my work, surely they would ridicule it or just wave it off as the work of an amateur. And yes, my code is amateurish compared with a lot of theirs, but how can I expect to get any better if I don&rsquo;t try to collaborate?</p>
+
+<p>Isn&rsquo;t that the point of open source&mdash;to freely share our ideas with each other so that they can get even better and everyone can benefit from them? Maybe one day someone will actually find my plugin useful, and they will come up with some improvements that will make it awesome. That can&rsquo;t happen if I don&rsquo;t make the plugin available.</p>
+
+<p>If you wait for your product to be perfect before you publish it, you&rsquo;ll never produce anything.</p>
+
+<h2>5. Sometimes it really is your fault</h2>
+
+<p>This lesson wasn&rsquo;t so fun to learn. I don&rsquo;t know about you, but when there is a problem with something I&rsquo;ve coded, my initial reaction is &ldquo;The person testing must not know what they&rsquo;re doing&rdquo; or &ldquo;There must be something wrong with the system.&rdquo; And often I turn out to be completely wrong.</p>
+
+<p>For example, at one point my tests started timing out. It was really strange because they only timed out when I ran the tests through Grunt, but when I opened the test page in the browser, they worked just fine. I thought there must be something wrong with PhantomJS on my machine, so I decided to just push my changes anyway and see if the tests worked on <a href="https://travis-ci.org/garrettn/jquery-takeout">Travis CI</a>. They failed there as well.</p>
+
+<p>It didn&rsquo;t make any sense. I looked at the diff between the commit where the tests passed and this latest commit, and the only changes I made were to the documentation. Something was obviously wrong with the system. Except there wasn&rsquo;t.</p>
+
+<p>In reality, the problem started in the <em>previous</em> commit, where I changed the package name in <code>package.json</code>. That package name is used everywhere in the Gruntfile, including the URLs that PhantomJS opens to run the tests. Because had changed the package name, PhantomJS was trying to open URLs that didn&rsquo;t exist, hence the timeouts.</p>
+
+<p>In short, it was my fault. If I had run the tests before making that previous commit (I didn&rsquo;t think it would matter because I wasn&rsquo;t changing any &ldquo;real&rdquo; code), I would have caught the problem. But I didn&rsquo;t. I screwed up.</p>
+
+<p>Sometimes that happens. Bugs show up in the code, and they are there because of something stupid you did. That&rsquo;s okay. It happens. You fix it and move on. But you can&rsquo;t fix it if you&rsquo;re not open to the idea that you might have done something wrong. Remember, it&rsquo;s never going to be perfect.</p>
+
+<h2>6. There is inherent value in creating something</h2>
+
+<p>I&rsquo;ve said a couple times that nobody else may find my little plugin useful. I created it for a very specific situation at work, and I don&rsquo;t know if anyone else will ever face a similar situation. Maybe nobody will ever even <em>look</em> at my plugin.</p>
+
+<p>But that doesn&rsquo;t mean it was a wasted effort. I&rsquo;m glad I did it, because it&rsquo;s very fulfilling to create something. I think if you ask some of the best novelists, painters, or even filmmakers, they&rsquo;ll tell you they&rsquo;re not creating stuff to get rich or famous. They&rsquo;re creating because they have an irresistible urge to create; fame or fortune is just a nice side effect.</p>
+
+<p>The same principle applies to any area where you create something, including programming. I know we have to make a living, and I&rsquo;m sure it&rsquo;s gratifying to see something you&rsquo;ve worked on become enormously successful. But if you don&rsquo;t find inherent joy or satisfaction in the process of making something, even just a tiny bit once in a while, I think you&rsquo;re missing out.</p>
+
+<p>That&rsquo;s one thing I love about open source. People are releasing amazing tools and resources without any expectation of monetary reward. They do it because they love doing it and because they hope they can make the world just a little better.</p>
+
+<p>It&rsquo;s a great thing to be a part of, even if it&rsquo;s just by creating one small, simple jQuery plugin.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Battle of the Clouds: Koding vs. Codio]]></title>
+    <summary><![CDATA[A comparison of two cloud IDEs, Koding and Codio, and why I prefer Codio]]></summary>
+    <link href="http://garrettn.github.io/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio/"/>
+    <updated>2014-07-07T21:05:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/07/07/battle-of-the-clouds-koding-vs-codio</id>
+    <content type="html"><![CDATA[<div class="caption-wrapper right"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/puffyclouds3.jpg" title="Clouds" alt="Photo of sunlight shining through clouds" height="240" width="320"><span class="caption-text">Image from <a href="http://www.freenaturepictures.com/cloud-pictures.php">FreeNaturePictures.com</a></span></div>
+
+
+<p>Today I&rsquo;d like to talk about two different cloud <abbr title="Integrated Development Environments">IDEs</abbr> that I&rsquo;ve had the chance to use, <a href="https://koding.com">Koding</a> and <a href="https://codio.com">Codio</a>, and the pros and cons of each. I know that cloud IDEs aren&rsquo;t really new at this point, and these two that I&rsquo;m talking about certainly aren&rsquo;t the only ones out there, but I&rsquo;ve only recently gotten into this game. Hopefully my perspective will help you if you&rsquo;re trying to decide on a cloud IDE to go with.</p>
+
+<p><strong>Spoiler:</strong> I prefer Codio and use it quite a bit. What you get for the price is great, and overall it seems faster and more polished than Koding.</p>
+
+<!-- more -->
+
+
+<h2>Why Use a Cloud IDE?</h2>
+
+<p>As I said before, cloud IDEs aren&rsquo;t really new anymore&mdash;<a href="https://c9.io">Cloud9</a>, one of the biggest names in the industry, has been around since 2009&mdash;but only recently have I become interested in them. I had plenty of doubts at first. For one thing, I didn&rsquo;t like the idea of putting my data, my work, into someone else&rsquo;s hands. This goes along with my wariness of cloud services in general. I want to own my own data and not have to rely on some service making it available to me, not to mention having to trust that they won&rsquo;t, you know, hand it over to the NSA or something.</p>
+
+<p><span class='pullquote-right' data-pullquote='Simply add a remote repository, and now you&#8217;re no longer dependent on the IDE housing your data.'>
+Turns out this isn&rsquo;t quite as big an issue as I thought, thanks to a little thing called Git. Both Koding and Codio, as well as every other cloud IDE I know of, make it straightforward to configure your projects with Git (or Mercurial, or whatever you prefer). That means you can simply add a remote repository, and now you&rsquo;re no longer dependent on the IDE housing your data. Codio makes it especially easy to configure repos with GitHub and Bitbucket, which I grant are yet more examples of entrusting your data to someone else, but they&rsquo;re pretty well respected services, and there&rsquo;s nothing stopping you from setting up your own private, self-hosted repository as a remote for your project.
+</span></p>
+
+<p>Another major obstacle was the cost. Most cloud IDEs cost money and, like many web-based services, operate on monthly or yearly subscriptions. That&rsquo;s a big deal to someone who doesn&rsquo;t have a lot of extra money to throw around. If you&rsquo;re a student or just getting started in this industry, I feel your pain. When I was a student, my budget could be summed up as &ldquo;Spend as little as possible.&rdquo; It was hard to justify paying for, much less paying <em>monthly</em> for, a service that I just thought might be cool.</p>
+
+<p>So why bother with cloud IDEs at all? The biggest draw for me was portability. All you need to use these services is a web browser. That&rsquo;s really cool when you think about it. You get a whole environment, complete with editor and any server-side dependencies you might need, without having to install a single thing on your own computer. You don&rsquo;t even have to work on your own computer. You could, for example, <a href="http://portableapps.com">install a portable browser on a USB key</a>, plug that in at the library, and you&rsquo;re off to the races!</p>
+
+<p>This portability is what I needed when I faced an interesting situation at work. Finding myself with some spare time, I had some ideas I wanted to experiment with that weren&rsquo;t part of our normal development environment. Unfortunately, the corporate firewall and proxy policies make it very cumbersome for any application other than browsers (e.g., Git, npm, Composer) to connect to the Internet. Also, since I&rsquo;m used to developing on Linux for my own projects, it was difficult for me to set up the environment I needed on Windows, which I have to use at work.</p>
+
+<p>A cloud IDE alleviates these problems. I don&rsquo;t have to install any additional software on my machine, and since everything is done through the browser, I don&rsquo;t have to worry about maneuvering through the proxy, thereby risking breaking company policies. (It&rsquo;s sad that I have to worry about that when what I&rsquo;m doing will benefit the company, but such is the obstacle I face.) A cloud IDE enormously simplifies that process of setting up a project with all its dependencies so I can hit the ground running. That&rsquo;s what drew me in.</p>
+
+<p>Now that I&rsquo;ve talked about why you might want to use a cloud IDE, let&rsquo;s look at a couple of them, starting with Koding.</p>
+
+<h2>Koding: Free, and Don&rsquo;t You Forget It!</h2>
+
+<p>What attracted me to <a href="https://koding.com">Koding</a> is that it&rsquo;s free. True, it does have <a href="https://koding.com/Pricing">paid options</a>, but what really make Koding unique is that you can create (reasonably) unlimited public and private projects at no cost. Not bad!</p>
+
+<p>When you start out with Koding, you get your own virtual machine to develop on. This is a Ubuntu server that you get full shell access to, either through their online terminal or through SSH. And when I say full shell access, I mean it&mdash;you can do absolutely anything you want on it, including stuff that requires root access.</p>
+
+<p>These machines are already set up with the resources you need to do most web projects, including Apache, PHP, MySQL, Ruby, Node.js, Perl, and Python. You&rsquo;re certainly not limited to that list, however, since you can install anything you want on the VM. Also, out of the box you&rsquo;re set up with your own subdomain that follows the pattern <code>[username].kd.io</code>, and you&rsquo;re free to set up any number of subdomains of that subdomain that point to wherever you want on your machine.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/koding-hello-world.png" alt="Screenshot of Koding's default server page" height="600" width="800"><span class="caption-text">Your Koding VM is already set up with the most popular web server software.</span></div>
+
+
+<p>Upon logging in to Koding, you&rsquo;re greeted with a tabbed interface that includes &ldquo;Activity&rdquo;, &ldquo;Teamwork&rdquo;, &ldquo;Terminal&rdquo;, &ldquo;Ace&rdquo; (editor), and &ldquo;Apps.&rdquo; You start out on the activity feed. Koding places a large emphasis on collaboration, especially learning how to code together. The &ldquo;Teamwork&rdquo; tab provides an environment for doing so, but I have to admit that I haven&rsquo;t used it, because this aspect of the service doesn&rsquo;t really interest me. From what it looks like, though, you can start up a Teamwork session, using some kind of app template if you want, and then invite others to work on it with you through the activity feed. Then you can work on the project together in real time and send chat messages back and forth. It seems like a cool idea, although something I haven&rsquo;t really had use for yet.</p>
+
+<p>The editor is pretty nice. It appears to be the <a href="http://ace.c9.io">Ace Editor</a>, which, interestingly enough, is an open-source project developed and maintained by Cloud9. It does what you need it to, for the most part, but if you&rsquo;re coming from a more advanced desktop editor like Sublime Text, you might find yourself missing some features.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/koding-ace.png" alt="Screenshot of Koding's Ace Editor" height="600" width="800"><span class="caption-text">Koding&#8217;s Ace Editor</span></div>
+
+
+<p>Overall, Koding is a pretty good development environment, and I&rsquo;m frankly stunned that they give you access to all these resources for free.</p>
+
+<p><span class='pullquote-right' data-pullquote='The biggest problem I&#8217;ve had with Koding is server uptime and availability.'>
+But there are some downsides.The biggest problem I&rsquo;ve had with Koding is server uptime and availability. It seems like every other time I log in to Koding, people on the activity feed are complaining about not being able to access their VMs. When I try to open a terminal, sure enough, it just gets stuck on the loading spinner indefinitely. I understand that Koding&rsquo;s user base is growing rapidly, making it a challenge to scale their resources accordingly. I also really shouldn&rsquo;t complain since I&rsquo;m not paying them anything, but it certainly is hard to want to use Koding when it&rsquo;s a gamble whether or not it&rsquo;s going to work for me today.
+</span></p>
+
+<p>Similarly, the interface seems a bit laggy a lot of the time. Now, I don&rsquo;t think any web-based IDE is ever going to be as responsive as working on your own machine (and anyone who tells you otherwise is probably lying), but the latency in Koding gets frustrating at times. Your VM can take quite a while to boot up, and both the terminal and the editor can show noticeable lag. I&rsquo;ve heard that <a href="http://oldpapyrus.wordpress.com/2014/02/17/koding/">it&rsquo;s the same when you access your VM through SSH</a>. To be fair, it&rsquo;s been a few weeks since I&rsquo;ve really used Koding, so things might have changed, but that was my impression.</p>
+
+<p>Finally, the VMs on Koding run Ubuntu 13.04, <a href="https://wiki.ubuntu.com/Releases">which reached end of life on January 27 this year</a>. It may have been the latest Ubuntu version when Koding was released to the public, but I think it was a strange choice not to go with a long-term support release. I assumed that once 14.04 (which is LTS) was released that Koding would upgrade, but two-and-a-half months later, I have yet to see that happen.</p>
+
+<p>If you take a look at <code>/etc/apt/sources.list</code> on your Koding VM, you&rsquo;ll see that the official Ubuntu repositories have been replaced with some mirrors provided by Koding themselves, so if you run an upgrade with APT, you&rsquo;ll get no warning about your Ubuntu version no longer being supported. I suppose it&rsquo;s not a huge deal, but it still bothers me. I&rsquo;ve even tried, <a href="https://koding.com/Activity/how-can-i-upgrade-my-vm-ubuntu-1404-i-execute-next-command-but-repositories-return">along with others</a>, to force an upgrade to 14.04, but it never went well.</p>
+
+<h3>Koding: Summary</h3>
+
+<h4>Pros</h4>
+
+<ul>
+<li>Free for unlimited public and private projects.</li>
+<li>Full shell access to your VM (including root).</li>
+<li>VM comes preconfigured with software for most web projects.</li>
+<li>Easy collaboration.</li>
+<li>Decent editor.</li>
+</ul>
+
+
+<h4>Cons</h4>
+
+<ul>
+<li>Servers are unreliable.</li>
+<li>Interface can be laggy.</li>
+<li>Uses outdated, unsupported Ubuntu version.</li>
+</ul>
+
+
+<h2>Codio: A Polished Experience at a Reasonable Cost</h2>
+
+<p>When I realized that Koding might not be the best for me, I started looking around at other options. Out of all the cloud IDEs I looked at (check out <a href="https://docs.google.com/spreadsheet/ccc?key=0An6rx68cKNFNdDNYdFdSSTNzZXl5eGRSY0ZxSW10aHc&amp;usp=drive_web#gid=1">this spreadsheet</a> for a partial list), Codio had the <a href="https://codio.com/s/pricing">pricing plan</a> that made the most sense to me.</p>
+
+<p>Codio is free for public and open-source projects. For just eight dollars a month, you get <em>unlimited</em> private projects. <a href="https://c9.io/site/pricing/">Compare that to Cloud9</a>, where you pay 19 dollars a month and are still limited to six private projects. In addition, Codio gives you one private project on the free plan. That was enough to get me to try it out.</p>
+
+<p><span class='pullquote-left' data-pullquote='In just a few seconds your box will boot up and be ready to go.'>
+When you log in to Codio, you first see a dashboard where all your projects are listed. One major difference between Koding and Codio is that in Codio, every project has a separate &ldquo;box,&rdquo; or virtual machine, so the configuration on one won&rsquo;t affect the others. (If you&rsquo;re worried about having to re-create the same environment over and over again for different projects, Codio <a href="https://blog.codio.com/s/blog/2014/07/clonable-boxes/">recently introduced a box-cloning feature</a> that takes the pain out of duplicating environments.) Select a project, andin just a few seconds your box will boot up and be ready to go.
+</span></p>
+
+<p>To create a new project, you click on the &ldquo;Create Project&rdquo; button, and you&rsquo;re presented with a number of options for getting started. You can use a template such as <a href="http://html5boilerplate.com">HTML5 Boilerplate</a>, clone a Git or Mercurial repository, import a Zip file, connect to a server via (S)FTP, or use Salesforce (no idea how that works). You can choose to start a blank project under &ldquo;templates.&rdquo;</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/codio-create-project.png" alt="Screenshot of Codio's create project page" height="571" width="716"><span class="caption-text">You have a lot of options when creating a project in Codio.</span></div>
+
+
+<p>The actual IDE feels almost like a desktop application, both in responsiveness and in features. The window is divided up into panels, which you can organize and resize however you like, and those panels contain tabs, which contain the actual stuff you work with, like files, terminals, preferences, and so on. Tabs can be moved around from panel to panel.</p>
+
+<p>The Codio editor features a command bar, made popular by Sublime Text, which makes it easy to access any command or menu option through the keyboard.</p>
+
+<div class="caption-wrapper"><img class="caption" src="http://garrettn.github.io/images/posts/cloud-ides/codio-ide.png" alt="Screenshot of Codio's IDE" height="521" width="800"><span class="caption-text">Codio&#8217;s IDE is fast, full-featured, and flexible.</span></div>
+
+
+<p>Each project has a configuration file where you can set up how to preview your project through the web. You can set up both static and dynamic preview URLs, and then these options are available through a convenient menu. One cool feature with the preview URLs is that if the server is listening on a non-standard port, you can access it at either <code>[subdomain].codio.io:[port]</code> or <code>[subdomain]-[port].codio.io</code>. That means if you have a proxy blocking every port besides 80 and 443, you can still access it. When you use the second URL option, Codio will route you to the right place. Pretty cool!</p>
+
+<p>I could go on and on about Codio&rsquo;s features (in their own words, they have &ldquo;More features than hairs on Chuck Norris chest [sic]!&rdquo;), but let&rsquo;s turn now to some potential downsides. The only ones I can think of aren&rsquo;t really that serious, and new features are being added all the time, so the downsides might not even be around for too long.</p>
+
+<p>First of all, unlike Koding, you don&rsquo;t get root access to your VMs on Codio, so you can&rsquo;t install whatever the heck you want. However, Codio mostly makes up for this with a feature called <a href="https://codio.com/s/docs/boxes/box-parts/">box parts</a>, which is a sort of package manager that can install <a href="https://github.com/codio/boxparts/tree/master/lib/autoparts/packages">pretty much anything you&rsquo;d need</a> for a web project, right into your home directory. The team also takes requests for additional box parts.</p>
+
+<p>Second, I&rsquo;ve noticed a bug with the tooltips. The editor has a nice feature where it shows tooltips with descriptions of variables and functions as you type them. The only problem is that sometimes those tooltips don&rsquo;t go away. They can get pretty irritating, and the only way I&rsquo;ve found to get rid of them besides refreshing is to delete their DOM elements from the browser developer tools.</p>
+
+<p>There are also some features that I&rsquo;d like to see, like <a href="http://editorconfig.org">EditorConfig</a> support and Sublime-style snippets. But I&rsquo;m confident that those features will show up eventually. The Codio team pays close attention to <a href="http://forum.codio.com/category/feature-request">feature requests</a>. In fact, soon after I signed up for Codio, I got an e-mail from Ian Jobling, who I believe is the lead developer. We then had a nice chat on IRC (#codio channel on Freenode) about my experience so far with the product, and he explained to me how to get my feature requests noticed by the team. The people at Codio clearly care about what their users want.</p>
+
+<p><span class='pullquote-right' data-pullquote='Money isn&#8217;t the only cost of something. Sometimes, when something is free, you pay for it in other ways.'>
+I suppose the cost is potentially a downside. If you don&rsquo;t feel comfortable plopping down eight bucks a month for a service like this, I totally understand. There are free options out there. But one thing I&rsquo;ve discovered lately is thatmoney isn&rsquo;t the only cost of something. Sometimes, when something is free, you pay for it in other ways. In my case, the cost of Codio is worth it.
+</span></p>
+
+<h3>Summary: Codio</h3>
+
+<h4>Pros</h4>
+
+<ul>
+<li>Free for public projects, $8/month for unlimited private projects.</li>
+<li>Isolated environments for each project, which can be cloned.</li>
+<li>VMs that boot up quickly.</li>
+<li>Full-featured, responsive editor.</li>
+<li>Access to non-standard ports, even if your network blocks them.</li>
+</ul>
+
+
+<h4>Cons</h4>
+
+<ul>
+<li>$8/month for private projects.</li>
+<li>No root access to VMs (but remember box parts).</li>
+<li>Bug where tooltips don&rsquo;t go away.</li>
+</ul>
+
+
+<h2>Conclusion</h2>
+
+<p>A year ago, I didn&rsquo;t think I would be saying this, but I think the whole cloud IDE idea is pretty cool, and more than that, it&rsquo;s quite useful. That said, I still don&rsquo;t use cloud IDEs exclusively. I still prefer to develop locally when I can. I still love my Sublime Text (although I&rsquo;m slowly getting wooed by Atom). And it&rsquo;s just fun to hack on my own computer.</p>
+
+<p>But sometimes I don&rsquo;t have my own computer with me, and that&rsquo;s when a cloud IDE really comes in handy. And when it comes to cloud IDEs, I think Codio is a great choice.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Obligatory Redesign Post]]></title>
+    <summary><![CDATA[I've delayed writing my blog because I was looking at upgrading or switching to another platform, but I'll just stick with Octopress 2.0 for now.]]></summary>
+    <link href="http://garrettn.github.io/blog/2014/06/10/the-obligatory-redesign-post/"/>
+    <updated>2014-06-10T07:00:48-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/06/10/the-obligatory-redesign-post</id>
+    <content type="html"><![CDATA[<p>Hi. Yes, I&rsquo;m still here. And check out my new design! It may not look like much, but it represents a big step for me.</p>
+
+<p>You see, ever since I started this Octopress blog, I always had this nagging feeling that I should do something about the design. The default Octopress theme is nice, but nobody wants to stick with the default theme, right? It&rsquo;s like how Twitter Bootstrap looks nice, but it&rsquo;s so nice that for a while it seemed as if half of the Web were using it. You could spot a Bootstrap-based site immediately (still can, I suppose). And you could pin my blog as an Octopress blog immediately, too. Not that that was a bad thing, but I didn&rsquo;t want this to get written off as &ldquo;yet another Octopress blog.&rdquo;</p>
+
+<p>I wanted to create a new theme. Oh, I had big plans. I envisioned adapting one of the awesome templates by <a href="http://html5up.net">HTML5 Up</a>, and eventually open-sourcing it so everyone could easily integrate it into their own Octopress blogs. But then some things started happening in <a href="https://twitter.com/octopress">the Octopress world</a> that put me in stop-and-wait mode for quite a while.</p>
+
+<!-- more -->
+
+
+<h2>Octopress 3?</h2>
+
+<p>A few months ago, I learned that <a href="https://twitter.com/imathis">Brandon Mathis</a>, the creator of Octopress, is working on version 3.0 of the project. This isn&rsquo;t just an evolution of version 2&mdash;it&rsquo;s a completely new way of working. It&rsquo;s so different, in fact, that he created <a href="https://github.com/octopress/octopress">a new repository</a> for it. Octopress 3.0 is a Ruby gem rather than just a Git repository that you clone and modify, which is how 2.0 works. And all its various components are separated out into individual gems, including the way <a href="https://github.com/octopress/ink">themes and plugins</a> work.</p>
+
+<p>And when I heard about this new version, it sounded like it was going to have a stable release very soon, so I thought, cool, I would wait and see how the whole thing worked, and then I could migrate my blog and apply my new theme using the new system.</p>
+
+<p>Fast forward a few months, and Octopress 3.0 still isn&rsquo;t <em>quite</em> done. To be more precise, the Octopress gem is pretty much there, but Octopress Ink, the plugin and theme framework, is still being worked on. I believe it&rsquo;s almost ready, but the documentation is still very sparse, and I don&rsquo;t think I have the time or the energy to dig into it and figure out how it works for myself, especially since I know very little Ruby.</p>
+
+<p>Don&rsquo;t get me wrong. I don&rsquo;t blame Brandon at all for having this take longer than planned. That&rsquo;s just how things go sometimes, and he clearly wants this to be the best product it can be. But because of the long delay, I started thinking about turning to other solutions.</p>
+
+<h2>What About This Assemble Thing?</h2>
+
+<p>Perhaps you&rsquo;ve heard of <a href="http://assemble.io">Assemble</a>, the static site generator for Node.js. It&rsquo;s essentially the Node counterpart of Ruby&rsquo;s Jekyll, which Octopress is based on. It works as a Grunt plugin, and it even has a Yeoman generator, the bottom line being that it uses technologies that I&rsquo;m much more familiar with.</p>
+
+<p>I was excited about Assemble for a while. Since it uses Grunt, a tool I now have a fair amount of experience with, I could potentially customize my blog to be exactly how I wanted it, including the theme. The possibilities seemed endless.</p>
+
+<p>Unfortunately, the Assemble project is still fairly young, and its documentation is pretty limited. I searched long and hard for information on how I could make Assemble work as a replacement for Octopress, but all I could find was partial answers. There is also some functionality that I need that isn&rsquo;t quite there yet.</p>
+
+<p>I know, Assemble is an open-source project&mdash;including its documentation&mdash;and instead of complaining about it I should just contribute to making it better. And I really might someday. But when it comes down to it, I have to decide: How much time and energy am I willing to invest in hacking on my blog, when simpler solutions are available?</p>
+
+<h2>Sticking with Version 2 For Now</h2>
+
+<p>Sometimes, even with all the desire for hacking and customizing, you just want it to work. And the fact of the matter is that Octopress 2 does work for me. There are a few hiccups now and then, mainly dealing with syntax highlighting, which I hope will be improved in the new version. But overall it has been a solid blogging platform, one that is simple to set up and simple to work with.</p>
+
+<p>So in the end, I&rsquo;ve decided to stay with Octopress version 2 for the time being. I&rsquo;ll keep watching the progress on version 3, because I&rsquo;m still eager to upgrade when the time is right. I&rsquo;ll also keep tabs on Assemble because I still want to take advantage of it some day, if not for this blog, then for other projects. But as for me and my dev blog, we will use Octopress 2.</p>
+
+<p>Having decided that, I looked around for a theme that would work with Octopress 2. It didn&rsquo;t need to be anything fancy, just something different enough from the default. Turns out there are <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">quite a few themes</a> available, and some have even been created quite recently. And now that I&rsquo;ve found a theme that I&rsquo;m happy with (after a few tweaks), I feel like I can keep writing on this blog without that redesign monkey on my back.</p>
+
+<h2>For the Record&mdash;Theme Details</h2>
+
+<p>I feel I should give credit where credit is due. The design of this blog is mostly thanks to the work of people more skilled than I.</p>
+
+<ul>
+<li>The theme is 95% based on <a href="https://github.com/johnkeith/boldandblue">Bold and Blue</a> by <a href="http://www.johnkeith.us">John Keith</a>.</li>
+<li>The sans-serif font (modified from the original theme) is <a href="http://mozilla.github.io/Fira">Fira Sans</a>, an open-source font provided by Mozilla.</li>
+<li>The speckled noise background in the header comes from the <a href="http://philbit.com/svgpatterns/">SVG Patterns Library</a>.</li>
+<li>The social icons were provided by <a href="http://icomoon.io">IcoMoon</a>.</li>
+</ul>
+
+
+<p>Okay, now that the obligatory redesign post is out of the way, let&rsquo;s move on to brighter age of dev blogging!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Write Modular JavaScript That Works Anywhere with UMD]]></title>
+    <summary><![CDATA[How the Universal Module Definition helps you write JavaScript modules that work in multiple environments, including RequireJS and Node.]]></summary>
+    <link href="http://garrettn.github.io/blog/2014/02/19/write-modular-javascript-that-works-anywhere-with-umd/"/>
+    <updated>2014-02-19T06:20:47-07:00</updated>
+    <id>http://garrettn.github.io/blog/2014/02/19/write-modular-javascript-that-works-anywhere-with-umd</id>
+    <content type="html"><![CDATA[<p>Have you ever used a JavaScript library that gives you more than one way to include it in your project? Take, for example, the <a href="https://github.com/jeromegn/Backbone.localStorage">Backbone localStorage adapter</a>. The readme gives you two ways to put it into your project: including it through a separate script tag in your HTML, or loading it through <a href="http://requirejs.org/">RequireJS</a>.</p>
+
+<p>As a developer that is still learning to navigate the JavaScript landscape, I&rsquo;ve wondered how libraries like that do it. The two methods of inclusion work entirely differently. When you include a library using a script tag, you&rsquo;re usually creating global variables that other scripts can use. But one of the main benefits of using RequireJS is that it eliminates the need for global variables. How can the same resource be loaded in both ways?</p>
+
+<p>After some digging, I learned that many of these projects use a pattern called the <a href="https://github.com/umdjs/umd">Universal Module Definition</a>.</p>
+
+<!-- more -->
+
+
+<h2>Modularity in Javascript</h2>
+
+<p>FIrst, a word about modularity in Javascript. I&rsquo;m a little late to this party, but the current wisdom in JavaScript development seems to be that your application code should be modular. I take &ldquo;modular&rdquo; to mean a few things:</p>
+
+<ul>
+<li>Your application is split up into distinct, self-contained pieces (modules), each responsible for a specific bit of functionality.</li>
+<li>A module doesn&rsquo;t add any unnecessary variables or functions to the global namespace. It is <em>encapsulated</em>—it exposes an interface for other modules to use, but that&rsquo;s it.</li>
+<li>Modules are potentially reusable in other contexts.</li>
+<li>Modules do not depend rigidly on each other. In other words, they&rsquo;re loosely coupled, and dependencies could probably be swapped without too much trouble.</li>
+</ul>
+
+
+<p>Probably not the best definition in the world (Addy Osmani <a href="http://addyosmani.com/writing-modular-js/">explains it much better than I can</a>), but it captures the basic idea as far as I understand it.</p>
+
+<p>The problem with JavaScript is that for a long time, there wasn&rsquo;t a really good way to make code modular. When you&rsquo;re just putting in a bunch of script tags, the only way the scripts can use each other is if they create global variables, and global variables get messy pretty quickly. It&rsquo;s also hard to make sure dependencies are resolved correctly—all you can do is keep track of the order the scripts are loaded in, which gets tedious after a while. Limitations like these are the reason why modular JavaScript is a relatively new concept, while other programming languages have had it standard from the beginning.</p>
+
+<p>As it turns out, built-in module functionality <a href="http://wiki.ecmascript.org/doku.php?id=harmony:modules">is coming in the ECMAScript 6 specification</a>, but that still appears to be a ways off. In the meantime, other, less-official specifications have emerged to fill in the gap. The big players are <a href="http://www.commonjs.org/">CommonJS</a> and <a href="https://github.com/amdjs/amdjs-api/wiki/AMD">Asynchronous Module Definition (AMD)</a>. CommonJS is the system used in <a href="http://nodejs.org/">Node.js</a>, and the most popular implementation of AMD is <a href="http://requirejs.org/">RequireJS</a>, which I like to use on the front end.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+
+<p>These specifications work quite differently. But suppose you&rsquo;re writing a library in JavaScript. This library could be useful both in the browser, where AMD is frequently used, or on the server, where CommonJS is commonly used (heh). On top of that, you also want to make this library accessible to developers who want to use it the old-fashioned way, via script tags. How do you do it?</p>
+
+<p>There are many ways you could go about solving this problem. But one solution I particularly like is UMD—the Universal Module Definition.</p>
+
+<h2>The Universal Module Definition</h2>
+
+<p>UMD is actually nothing more than a collection of patterns you can find in <a href="https://github.com/umdjs/umd">a repository on GitHub</a>. There are lots of different patterns, or definitions, each for a different set of requirements. But they&rsquo;re all essentially variations on the same idea.</p>
+
+<p>For example, let&rsquo;s look at <a href="https://github.com/umdjs/umd/blob/master/returnExports.js">returnExports.js</a>:</p>
+
+<figure class='code'><figcaption><span> (returnExports.js)</span> <a href='http://garrettn.github.io/downloads/code/umd/returnExports.js'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// AMD. Register as an anonymous module.</span>
+</span><span class='line'>        <span class="nx">define</span><span class="p">([</span><span class="s1">&#39;b&#39;</span><span class="p">],</span> <span class="nx">factory</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// Node. Does not work with strict CommonJS, but</span>
+</span><span class='line'>        <span class="c1">// only CommonJS-like environments that support module.exports,</span>
+</span><span class='line'>        <span class="c1">// like Node.</span>
+</span><span class='line'>        <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">));</span>
+</span><span class='line'>    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>        <span class="c1">// Browser globals (root is window)</span>
+</span><span class='line'>        <span class="nx">root</span><span class="p">.</span><span class="nx">returnExports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">.</span><span class="nx">b</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}(</span><span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">//use b in some fashion.</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// Just return a value to define the module export.</span>
+</span><span class='line'>    <span class="c1">// This example returns an object, but the module</span>
+</span><span class='line'>    <span class="c1">// can return a function as the exported value.</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">{};</span>
+</span><span class='line'><span class="p">}));</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This definition makes your module available as a CommonJS module, an AMD module, or a global variable, depending on the environment. How? The magic lies in one of those peculiar features of JavaScript, the <a href="https://en.wikipedia.org/wiki/Immediately-invoked_function_expression">immediately-invoked function expression (IIFE)</a>.</p>
+
+<p>I won&rsquo;t go into a lot of detail about how IIFEs work (see <a href="http://benalman.com/news/2010/11/immediately-invoked-function-expression/">Ben Alman&rsquo;s article</a> for an excellent explanation). In a nutshell, an IIFE consists of the following things:</p>
+
+<ol>
+<li>a function definition</li>
+<li>parentheses wrapped around the function to turn it into a function <em>expression</em>, which can be executed immediately, whereas a function <em>declaration</em> cannot</li>
+<li>a pair of parentheses at the end, optionally containing arguments to be passed into the function; these parentheses signal that the function is to be executed right away</li>
+</ol>
+
+
+<p>IIFEs are a useful tool for encapsulating code, because variables declared inside the function are not accessible outside it. In the case of UMD, the IIFE gives you control over exactly how the module is exposed.</p>
+
+<p>Let&rsquo;s go back to the <code>returnExports</code> example. Here it is again with the internals stripped out:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">root</span><span class="p">,</span> <span class="nx">factory</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// environment detection here</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}(</span><span class="k">this</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c1">// module definition here</span>
+</span><span class='line'>
+</span><span class='line'><span class="p">}));</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The function has two parameters, <code>root</code>, and <code>factory</code>. If you look at the arguments at the bottom, you can see that the argument passed in for <code>root</code> is <code>this</code>, which represents the global object (the <code>window</code> object in a browser context). Although the global object is accessible inside the function (since it&rsquo;s global), using a local variable to reference it is often a good idea because it shortens the lookup chain and can possibly improve performance.</p>
+
+<p>The <code>factory</code> parameter gets the value of a function that is passed in as the second argument. This factory function is where the module is actually defined. It&rsquo;s the equivalent of the <code>define</code> function in RequireJS, or the function you assign to <code>module.exports</code> in Node. As in those individual situations, this function can return anything, but usually it&rsquo;s going to be an object or a function.</p>
+
+<p>Now let&rsquo;s look at what happens inside the main function:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">define</span> <span class="o">===</span> <span class="s1">&#39;function&#39;</span> <span class="o">&amp;&amp;</span> <span class="nx">define</span><span class="p">.</span><span class="nx">amd</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">// AMD. Register as an anonymous module.</span>
+</span><span class='line'>    <span class="nx">define</span><span class="p">([</span><span class="s1">&#39;b&#39;</span><span class="p">],</span> <span class="nx">factory</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">===</span> <span class="s1">&#39;object&#39;</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">// Node. Does not work with strict CommonJS, but</span>
+</span><span class='line'>    <span class="c1">// only CommonJS-like environments that support module.exports,</span>
+</span><span class='line'>    <span class="c1">// like Node.</span>
+</span><span class='line'>    <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;b&#39;</span><span class="p">));</span>
+</span><span class='line'><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span><span class='line'>    <span class="c1">// Browser globals (root is window)</span>
+</span><span class='line'>    <span class="nx">root</span><span class="p">.</span><span class="nx">returnExports</span> <span class="o">=</span> <span class="nx">factory</span><span class="p">(</span><span class="nx">root</span><span class="p">.</span><span class="nx">b</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I call this part the environment detection. Here we have a series of if-then statements to determine what kind of module loader is present, if there is any. First we test if it&rsquo;s an AMD loader by looking for a <code>define</code> function; that function should also have a property called <code>amd</code>. If it&rsquo;s there, we use the <code>factory</code> function as the callback for <code>define</code>, thus defining an AMD module.</p>
+
+<p>If an AMD loader isn&rsquo;t there there, we then look for the CommonJS <code>exports</code> object. As the comments in the code mention, this part doesn&rsquo;t follow the strict CommonJS specification, but there is <a href="https://github.com/umdjs/umd/blob/master/commonjsStrict.js">another definition for that</a>. As with AMD, if we are using a CommonJS-like loader, then the function assigns the <code>factory</code> function to <code>module.exports</code>, making it ready to be loaded as a Node module.</p>
+
+<p>If neither of those loaders are present, then the last option is to load the module as a global variable. This is where the <code>root</code> parameter comes in: the script assigns the <code>factory</code> function as a property of <code>root</code>, which in most cases is going to point to <code>window</code>. Here they have called the global variable <code>returnExports</code>, but that&rsquo;s just because that&rsquo;s the name of the module pattern we&rsquo;re using—you can call it anything. If the script gets to this point, the module will be available as a global, and so the script can be included through an HTML script tag, and other scripts will be able to use it.</p>
+
+<p>You might have noticed an argument called <code>b</code> that&rsquo;s getting passed to the <code>factory</code> function. That&rsquo;s basically just a demonstration of how dependencies are handled in UMD. If your module depends on other modules, you can put them in the way <code>b</code> is done here. If not, you can take that part out. In fact, <a href="https://github.com/umdjs/umd/blob/master/returnExports.js">the actual returnExports definition</a> includes a variant that uses no dependencies, so you can follow that one if it applies.</p>
+
+<h2>Using UMD</h2>
+
+<p>And there you have it! Now you have a way to write a JavaScript module that can be loaded by both of the major module-loading systems, or as a global when neither of those loaders are present. What I especially love about UMD is that the global is created <em>only</em> when the loaders aren&rsquo;t present, so if you&rsquo;re using RequireJS, you&rsquo;re not going to see this module as a global.</p>
+
+<p>The definition we looked at here is only one of many included in the UMD repository. Be sure to check it out the other versions to see if there is a different ones that better fits the particular requirements of the module you&rsquo;re writing.</p>
+
+<p>The downside of the UMD approach is that it does add a bit of boilerplate to your code. I personally don&rsquo;t think it&rsquo;s that much, but I suppose it could get old after a while. To make things a little easier, I created <a href="https://sublime.wbond.net/packages/UMD%20snippets">a package of Sublime Text snippets</a> for all the UMD patterns. If you use Sublime Text, that package should hopefully make it a little easier and quicker to incorporate UMD into your workflow. There is also <a href="https://github.com/quandora/grunt-umd-wrapper">a Grunt plugin</a> and <a href="https://github.com/phated/gulp-wrap-umd">a Gulp plugin</a> available to automate the process of wrapping your code in UMD.</p>
+
+<p>An alternative to UMD is something I just recently learned about called <a href="http://urequire.org">uRequire</a>. The goal of uRequire is apparently to take the ugliness out of UMD boilerplate and the like (which, again, I don&rsquo;t think is too much of a problem) and make it easier to adapt your modules to most environments. I haven&rsquo;t used it myself, but it looks promising, so maybe I will write about that in the future.</p>
+
+<p>So there you go. I hope this post has helped you understand how UMD works and encouraged you to start using it in your own projects.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I am also aware of a project called <a href="http://browserify.org">Browserify</a>, which lets you load modules in Node fashion in the browser. It&rsquo;s really picking up steam lately, but my experience is mainly with AMD and RequireJS, so that&rsquo;s what I&rsquo;m focusing on here. But since Browserify uses Node-style module loading, UMD can still be used for it.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[@extend: One reason I love Sass]]></title>
+    <summary><![CDATA[Sass's @extend makes it ridiculously easy to share CSS rules between selectors.]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass/"/>
+    <updated>2013-12-16T19:19:50-07:00</updated>
+    <id>http://garrettn.github.io/blog/2013/12/16/extend-one-reason-i-love-sass</id>
+    <content type="html"><![CDATA[<p>As I was working on my last post, I re-discovered a feature of <a href="http://sass-lang.com">Sass</a> that
+reminded me of why it&rsquo;s so great.</p>
+
+<!-- more -->
+
+
+<p>I realized that when I was writing what the user should type (like <kbd>git pull</kbd>),
+I should probably be using the <code>&lt;kbd&gt;</code> element instead of the regular code
+backticks in Markdown, because <a href="http://devdocs.io/html/kbd">the element is specifically meant to indicate user input</a>.
+According to the documentation, the <code>&lt;kbd&gt;</code> element is normally displayed in a
+monotype font, but I was sad to find out that Octopress&rsquo;s default theme uses
+some kind of CSS reset that makes it look just like normal text.</p>
+
+<p>I tried hunting that reset down, but it was surprisingly hard to find. So I took
+a different approach. I looked at the style rules for the <code>&lt;code&gt;</code> element, which
+is what I wanted <code>&lt;kbd&gt;</code> to look like. This is what I found, in the generated
+CSS:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">p</span> <span class="nt">code</span><span class="o">,</span> <span class="nt">li</span> <span class="nt">code</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">background</span><span class="o">:</span> <span class="k">none</span> <span class="k">repeat</span> <span class="k">scroll</span> <span class="m">0</span> <span class="m">0</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#DDDDDD</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">0.4em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">color</span><span class="o">:</span> <span class="m">#555555</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">display</span><span class="o">:</span> <span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">font-size</span><span class="o">:</span> <span class="m">0.8em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">line-height</span><span class="o">:</span> <span class="m">1.5em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">margin</span><span class="o">:</span> <span class="m">-1px</span> <span class="m">0</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">0.3em</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>I wanted to get the <code>kbd</code> style to have the same rules. What to do? Well, as it
+turns out, Sass has an extend feature, which <a href="http://devdocs.io/sass/index#extend">according to the documentation</a>,
+tells the compiler &ldquo;that one selector should inherit the styles of another
+selector.&rdquo; That was exactly what I wanted—I wanted <code>kbd</code> to have all the same
+styles as <code>code</code>.</p>
+
+<p>Octopress uses Sass for its styling. It also makes things really easy by providing
+an extra <code>_styles.scss</code> file inside the <code>sass/custom</code> directory, and the comments
+inside explain that this file is compiled very last, so anything declared there
+overrides previous rules. Or, more important in this case, they can <em>extend</em>
+previous rules.</p>
+
+<p>So all I had to do was add this simple rule to the file:</p>
+
+<figure class='code'><figcaption><span>sass/custom/_styles.scss</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='scss'><span class='line'><span class="c1">// This File is imported last, and will override other styles in the cascade</span>
+</span><span class='line'><span class="c1">// Add styles here to make changes without digging in too much</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Style kbd tags the same as code tags</span>
+</span><span class='line'><span class="nt">kbd</span> <span class="p">{</span>
+</span><span class='line'>  <span class="k">@extend</span> <span class="nt">code</span><span class="o">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When I looked at the compiled code, I saw that Sass did exactly what it said
+it would do:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='css'><span class='line'><span class="nt">p</span> <span class="nt">code</span><span class="o">,</span> <span class="nt">p</span> <span class="nt">kbd</span><span class="o">,</span> <span class="nt">li</span> <span class="nt">code</span><span class="o">,</span> <span class="nt">li</span> <span class="nt">kbd</span> <span class="p">{</span>
+</span><span class='line'>    <span class="k">background</span><span class="o">:</span> <span class="k">none</span> <span class="k">repeat</span> <span class="k">scroll</span> <span class="m">0</span> <span class="m">0</span> <span class="m">#FFFFFF</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">border</span><span class="o">:</span> <span class="m">1px</span> <span class="k">solid</span> <span class="m">#DDDDDD</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">border</span><span class="o">-</span><span class="n">radius</span><span class="o">:</span> <span class="m">0.4em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">color</span><span class="o">:</span> <span class="m">#555555</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">display</span><span class="o">:</span> <span class="k">inline</span><span class="o">-</span><span class="k">block</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">font-size</span><span class="o">:</span> <span class="m">0.8em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">line-height</span><span class="o">:</span> <span class="m">1.5em</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">margin</span><span class="o">:</span> <span class="m">-1px</span> <span class="m">0</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">padding</span><span class="o">:</span> <span class="m">0</span> <span class="m">0.3em</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <code>kbd</code> selectors were added right there to the same block as the <code>code</code>
+selectors! How cool is that? It took just three lines of code (or one, if you
+want to squish them together, but you shouldn&rsquo;t because that&rsquo;s what preprocessors
+are for) to solve my problem, but after compilation, just a tiny bit was added
+to the overall code. No bloat.</p>
+
+<p>The bottom line is that Sass is awesome. I know that there are other CSS
+preprocessors out there—<a href="http://lesscss.org/">LESS</a> and <a href="http://learnboost.github.io/stylus/">Stylus</a> probably being the biggest ones—and
+they probably have analogous features, but Sass just happens to be the one I
+went with first, so I can speak to how awesome it is. If your favorite
+preprocessor can do the same thing and all sorts of other amazing things, more
+power to you.</p>
+
+<p>The real moral of the story here is that you should definitely be using a CSS
+preprocessor if you aren&rsquo;t already. It makes coding CSS so much more pleasant
+(dare I say fun?) and if used correctly can make your code a lot cleaner too.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Manage Your Dotfiles Easily with Git and Homeshick]]></title>
+    <summary><![CDATA[How to use Homeshick/Homesick to keep track of dotfiles and synchronize them between computers.]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/12/10/manage-your-dotfiles-easily-with-homeshick/"/>
+    <updated>2013-12-10T15:31:03-07:00</updated>
+    <id>http://garrettn.github.io/blog/2013/12/10/manage-your-dotfiles-easily-with-homeshick</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s been a while since my last post, and one reason for that is that I spent
+some time upgrading to Ubuntu 13.10 and configuring my new system. It may be a
+bad idea, but for some reason I prefer doing a fresh install rather than directly
+upgrading when a new version of Ubuntu is released. But as fun as it can be to
+configure a shiny new system, I&rsquo;ve learned that I really need a more systematic
+way to keep track of some of the more repetitive tasks. One very useful tool I
+found for doing this is called <a href="https://github.com/andsens/homeshick">Homeshick</a>.</p>
+
+<!-- more -->
+
+
+<p>That&rsquo;s not a typo: Homeshick is a tool similar to the better-known <a href="https://github.com/technicalpickles/homesick">Homesick</a>,
+but instead of being a Ruby gem, it&rsquo;s written in pure Bash&mdash;hence the &ldquo;sh.&rdquo; It
+took me a while to decide which one to use, but since I need my dotfiles set up
+before I can start using Ruby (since I use <a href="https://github.com/sstephenson/rbenv">rbenv</a>), it makes more sense for
+me to use the version that takes nothing more than running a shell script.</p>
+
+<p>Homeshick makes it very easy to track your important dotfiles and synchronize
+them between computers.</p>
+
+<h2>What Are Dotfiles, and Why Should You Track Them?</h2>
+
+<p>Dotfiles are, simply put, files that begin with a dot. On UNIX-like operating
+systems, like GNU/Linux and OS X, dotfiles are hidden by default. That means
+your file manager and your command line shell won&rsquo;t show them unless you
+specifically tell them to.</p>
+
+<p>For example, in Ubuntu&rsquo;s file manager you can hit <kbd>ctrl+h</kbd>, and you&rsquo;ll
+see files like these:</p>
+
+<p><img class="center" src="http://garrettn.github.io/images/posts/homeshick/hidden-files-nautilus.png" width="765" height="446" title="Hidden files in Nautilus" ></p>
+
+<p>On the command line, you can use the <kbd>-a</kbd> flag with the <kbd>ls</kbd>
+command to show hidden files in the current working directory:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>user@computer:~$ ls -a
+</span><span class='line'>.              .compiz    Dropbox          .ICEauthority  .pki           .steampid       .Xauthority
+</span><span class='line'>..             .config    .gconf           .icons         .profile       Templates       .xsession-errors
+</span><span class='line'>.adobe         .dbus      .gem             .local         Public         .thunderbird    .xsession-errors.old
+</span><span class='line'>.bash_aliases  Desktop    .gitconfig       .macromedia    .pulse-cookie  tmp
+</span><span class='line'>.bash_history  Dev        .gksu.lock       .mozilla       .pyenv         Ubuntu One
+</span><span class='line'>.bash_logout   .dmrc      .gnome2          Music          .rbenv         .unison
+</span><span class='line'>.bashrc        Documents  .gnome2_private  .npm           .ssh           .vagrant.d
+</span><span class='line'>Books          Downloads  .grabMyBooks     .nvm           .steam         Videos
+</span><span class='line'>.cache         .dropbox   .homesick        Pictures       .steampath     VirtualBox VMs
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>That&rsquo;s great, but what do these dotfiles <em>do</em>? Well, all sorts of things. I
+showed <a href="http://garrettn.github.io/blog/2013/10/21/run-programs-from-your-home-directory-in-ubuntu/">in a previous post</a> how some files, like <code>.profile</code> and <code>.bashrc</code>, let
+you set environment variables. But that&rsquo;s just the beginning. You can set Bash
+aliases, define functions, customize the prompt, and more. And those are just
+the files dealing with the shell. Some dotfiles deal with specific programs,
+like Git or npm.</p>
+
+<p>The bottom line is that if you&rsquo;re a developer, you&rsquo;re very likely to find
+yourself customizing many of these files to make your work easier (or <em>possible</em>,
+even). And if you happen to work on multiple machines (such as at home and at
+work), or if you migrate to a new machine or OS like I did, you&rsquo;re going to find
+it very tedious to keep editing these files over and over to make them the same.</p>
+
+<p>There has to be a better way, right? You&rsquo;re in luck! There is a better way&mdash;it&rsquo;s
+called Homeshick.</p>
+
+<h2>Installing Homeshick</h2>
+
+<p>Since Homeshick is just a Bash script (or a small collection of scripts), you
+don&rsquo;t really need to install it like a regular application. You just need to put
+it in a place where you can access it. All it takes is a simple Git clone:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git://github.com/andsens/homeshick.git $HOME/.homesick/repos/homeshick</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This command simply clones the Homeshick repository to a hidden directory inside
+your home directory. An added benefit of using Git to clone it is that you can
+keep it up to date easily with a <kbd>git pull</kbd>.</p>
+
+<p>Notice how the top-level directory is called <code>.homesick</code>. The developer
+<a href="https://github.com/andsens/homeshick/wiki/Tutorials#bootstrapping">says this is intentional</a> for compatibility with Homesick.</p>
+
+<p>Now you have access to the Homeshick script. You can start using immediately by
+sourcing it:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ source "$HOME/.homesick/repos/homeshick/homeshick.sh"</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This command will load a <code>homeshick()</code> function into your shell session. Of course,
+you&rsquo;ll want to have access to this function every time you open a shell session
+without having to source it manually, so you should add the line to your <code>.bashrc</code>:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ printf '\nsource "$HOME/.homesick/repos/homeshick/homeshick.sh"' &gt;&gt; $HOME/.bashrc</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now you&rsquo;ll be able to call <code>homeshick</code> every time you open up the terminal.</p>
+
+<h2>Tracking Your Dotfiles</h2>
+
+<p>Homeshick and Homesick both revolve around what they call &ldquo;castles&#8221;—a reference
+to the saying &#8220;A man&rsquo;s home is his castle.&rdquo; A castle is a Git repository where
+you store dotfiles. It has a particular structure, but you don&rsquo;t need to worry
+about that because you can have Homeshick create one for you.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ homeshick generate dotfiles</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here, I created a new castle called dotfiles, but you can call them whatever you
+want. You could even have separate castles for different purposes, like one for
+Bash files, one for Git configurations, and so on. Go crazy!</p>
+
+<p>For me, so far, having one central castle is enough. So once you have a castle
+created, you can start telling Homeshick to track whatever dotfiles you want.
+How? You guessed it—with <kbd>homeshick track</kbd>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ homeshick track dotfiles .bashrc</span></code></pre></td></tr></table></div></figure>
+
+
+<p></p>
+
+<p>Here you&rsquo;re telling Homeshick to track your <code>.bashrc</code> (since you&rsquo;ve customized
+it to include Homeshick and want to save the changes) in your <code>dotfiles</code> castle.
+As a result, Homeshick moves the file into the castle&rsquo;s directory and then
+creates a symbolic link in its original location pointing to it.</p>
+
+<p>What&rsquo;s so great about that, you ask? As I said before, the castle is a Git
+repository, so now that the actual file is inside it, you can take advantage of
+Git to keep track of your changes to it—and easily back it up to a remote
+location. For example if you <a href="https://github.com/search?q=dotfiles&amp;ref=cmdform">search for dotfiles on GitHub</a> you&rsquo;ll come up
+with roughly seven bazillion results. Developers love their dotfiles repos! I,
+myself, don&rsquo;t feel the need to publish my own dotfiles for the world to see, so
+I host mine in a private repository on Bitbucket. Whatever you do is up to you.</p>
+
+<p>To look inside your castle, you can use a shortcut provided by Homeshick:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ homeshick cd dotfiles</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Unless you&rsquo;ve altered the code somehow, this is the same as typing
+<kbd>cd ~/.homesick/repos/dotfiles</kbd>. But the Homeshick version is nicer,
+wouldn&rsquo;t you say?</p>
+
+<p>And now that you&rsquo;re inside the directory, you can do all the normal Git stuff.
+In this example, since you just started tracking <code>.bashrc</code> you&rsquo;ll see it here
+as a new file staged for committing:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git status
+</span><span class='line'>On branch master
+</span><span class='line'>
+</span><span class='line'>Initial commit
+</span><span class='line'>
+</span><span class='line'>Changes to be committed:
+</span><span class='line'>  (use "git rm --cached &lt;file&gt;..." to unstage)
+</span><span class='line'>
+</span><span class='line'>  new file:   home/.bashrc
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Notice how the file is inside <code>home</code> directory. That&rsquo;s how Homeshick and Homesick
+both structure their castles.</p>
+
+<h2>Never Feel Homes(h)ick Again</h2>
+
+<p>So that&rsquo;s the basics of getting started with Homeshick. Once you&rsquo;ve pushed your
+castle to a remote repository, it&rsquo;s easy to incorporate those dotfiles into a
+new system. Homeshick even provides a <kdb>clone</kdb> command for that purpose.</p>
+
+<p>I&rsquo;ve barely scratched the surface of what you can do with Homeshick—see
+<a href="https://github.com/andsens/homeshick/wiki">the official documentation</a> for more details. The point is that Homeshick
+makes it easy to keep track of those precious dotfiles. And they really are
+precious to a developer, as I&rsquo;m beginning to discover!</p>
+
+<p>Don&rsquo;t forget, also, that since this tool uses Git, you can harness Git&rsquo;s
+capabilities to make your dotfiles repo fit your needs. Specifically, remember
+branching. My main computer runs Ubuntu, but a while back I was thinking about
+trying out a different Linux distribution on another machine. At first I thought
+I would have to create a separate castle for that distro, but then I
+remembered—Git has branching! You can have a branch for Ubuntu, a branch for
+Arch, a branch for OS X, or whatever, and thus take advantage of the similarities
+between systems while preserving the differences, <em>and</em> keep it all in one
+place. It&rsquo;s beautiful.</p>
+
+<p>So there you go. Homeshick. Use it. Or maybe you have your own preferred system
+for tracking your dotfiles (<a href="http://dotfiles.github.io/">and there are many</a>). What have you found works
+for you? Let me know in the comments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Amazing resource DevDocs goes open source]]></title>
+    <summary><![CDATA[Highlights of the features of DevDocs, an all-in-one documentation tool, and why you should be using it.]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/10/25/amazing-resource-devdocs-goes-open-source/"/>
+    <updated>2013-10-25T07:39:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/25/amazing-resource-devdocs-goes-open-source</id>
+    <content type="html"><![CDATA[<p><a href="http://devdocs.io">DevDocs</a>, the all-in-one API documentation tool for web
+developers, released <a href="https://github.com/Thibaut/devdocs">its code on GitHub</a> yesterday, officially becoming an
+open-source project. This is good news indeed. Now that anybody can contribute
+documentation, this already-amazing resource is only going to get better.</p>
+
+<p>If you are a web developer and aren&rsquo;t using DevDocs, you are seriously missing
+out. Here are a few reasons why.</p>
+
+<!-- more -->
+
+
+<h2>Lots of Documentation All in One Place</h2>
+
+<p><img class="center" src="http://garrettn.github.io/images/posts/devdocs/devdocs.png" width="800" height="356" title="The DevDocs interface" ></p>
+
+<p>DevDocs is a one-stop shop for (nearly) all of your documentation needs. It
+includes docs for core web technologies as well as various popular libraries and
+frameworks. This is the current lineup:</p>
+
+<ul>
+<li><p><strong>Core web:</strong> CSS, DOM, DOM Events, HTML, HTTP, JavaScipt</p></li>
+<li><p><strong>Libraries and frameworks:</strong> Angular.js, Backbone.js, Ember.js, jQuery,
+jQuery Mobile, jQuery UI, Lo-Dash, Underscore.js</p></li>
+<li><p><strong>Preprocessors:</strong> Coffeescript, Less, Sass</p></li>
+<li><p><strong>Server:</strong> Node.js, PHP</p></li>
+</ul>
+
+
+<p>Do you use any of those in your development work? I thought so. Have you ever
+needed to look up a particular function signature, or the correct syntax of a
+CSS rule? Quit hunting around on Google and individual websites and use DevDocs!
+You&rsquo;ll find it all here.</p>
+
+<p>For some reason, DevDocs has been a bit of a hard sell to my co-workers. When I
+eagerly showed one of them how all of the documentation we need is here in a
+single place, he just shrugged it off and said when he needs to look at jQuery
+documentation, he goes to the jQuery site, and he knows all the JavaScript
+anyway. That second point may be true (it&rsquo;s definitely not for me yet), but
+what if he needs to check what parameters that PHP function takes, or whether
+that jQuery function is deprecated? Why go to the separate sites when you can
+get it all in one place?</p>
+
+<p>One thing I probably should have stressed when showing it to him is that
+<strong>DevDocs contains exact copies of the official documentations.</strong> Although they
+may be styled a little differently, the content is exactly the same, and so you
+don&rsquo;t need to worry about missing something from the official site. It&rsquo;s all
+there.</p>
+
+<p>And if you&rsquo;re worried that all those documentations will clutter up your search
+results with things you don&rsquo;t need, worry no more. DevDocs allows you to select
+only the docs that you want to use and ignore all the others. You can tailor it
+to your specific work!</p>
+
+<p><img class="center" src="http://garrettn.github.io/images/posts/devdocs/select-docs.png" width="287" height="552" title="Select only the documentation you want" ></p>
+
+<h2>Lightning-Fast Fuzzy Searching</h2>
+
+<p>This feature is really what sells it for me. From what I&rsquo;ve seen, DevDocs beats
+any official website&rsquo;s search speed hands down. Results come up instantly as you
+type, and then you can quickly navigate to the right one with the keyboard and
+open it up in the main pane.</p>
+
+<p>But what&rsquo;s really great is that it supports <strong>fuzzy matching</strong>. If you use
+<a href="https://github.com/Thibaut/devdocs">Sublime Text</a>, you know how great fuzzy matching is. What it means is that
+you can type in a string of letters that aren&rsquo;t necessarily contiguous, and it
+will understand what you mean. Say, for example, I want to look up CSS
+transforms. I can just type in <code>tfm</code>, and &ldquo;transform&rdquo; will show up as the first
+entry. Select that one, and I&rsquo;m there. The whole thing took two seconds.</p>
+
+<p><img class="right" src="http://garrettn.github.io/images/posts/devdocs/search.png" width="287" height="286" title="Namespacing your searches is easy" ></p>
+
+<p>It&rsquo;s also possible to namespace your searches. As I said before, DevDocs has
+lots of different sets of documentation. If you want to, say, look up information
+about jQuery events, you can type in <code>jq</code> and then a tab. A &ldquo;jQuery&rdquo; label will
+appear in the search field, and from then on your searches will be restricted to
+the jQuery documentation (you can use backspace to get rid of the label and
+restore the scope).</p>
+
+<p>Oh, and you can also query straight from the URL, with our without namespacing.
+Simply add <code>/#q=</code> and your query to the end of the app&rsquo;s URL, and you&rsquo;ll be
+taken to the app with the search field prefilled, with the first result showing
+up in the main pane. To get a namespaced result, simply prefix your query with
+the namespace followed by a space. For example, <code>devdocs.io/#q=js trim</code> takes
+you to <a href="http://devdocs.io/#q=js%20trim">the JavaScript trim function documentation</a>.</p>
+
+<p>However you like to search, I&rsquo;m telling you DevDocs is fast.</p>
+
+<h2>Now It&rsquo;s Open Source</h2>
+
+<p>DevDocs has been out in the wild for several months now, but only yesterday did
+Thibaut Courouble, the developer, release the code for all to see and contribute
+to. This was a big step, and one that he clearly put a lot of thought into.
+There are several benefits to DevDocs being an open-source project.</p>
+
+<p>For one thing, now it is possible to download your own copy of DevDocs and run
+it locally, meaning you don&rsquo;t need an Internet connection for it to work. I
+haven&rsquo;t tried doing that myself, but it could be a great option for some
+developers.</p>
+
+<p>The more obvious benefit is now anybody can contribute to the project, both by
+improving the code of the app itself and by adding new documentation. Thibaut
+has given <a href="https://github.com/Thibaut/devdocs/blob/master/CONTRIBUTING.md">guidelines for contributing</a>, so the way is now open for anyone
+to help. I expect that soon we&rsquo;ll be seeing new documentations being added at an
+accelerated rate, and that can only be a good thing.</p>
+
+<h2>Use DevDocs Already!</h2>
+
+<p>I could talk about other features of DevDocs, such as its mobile interface,
+keyboard shortcuts, and OpenSearch compatibility, but hopefully what I&rsquo;ve
+outlined here gives you reason enough to start using it. Seriously, I can&rsquo;t
+think of any reason why a web developer wouldn&rsquo;t want to use it&mdash;unless you had
+every bit of every documentation memorized.</p>
+
+<p>So <a href="http://devdocs.io">get over there</a> and start using DevDocs to help your work.
+I guarantee it will make you happier as a developer.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Run programs from your home directory in Ubuntu]]></title>
+    <summary><![CDATA[]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/10/21/run-programs-from-your-home-directory-in-ubuntu/"/>
+    <updated>2013-10-21T21:18:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/21/run-programs-from-your-home-directory-in-ubuntu</id>
+    <content type="html"><![CDATA[<p><ins><strong>Update 23 Nov 2013:</strong> Since I upgraded to Ubuntu 13.10, setting variables
+in .pam_environment no longer works for me. No matter what I have in there, even
+if the syntax is correct, I get blocked from logging in to my account. I haven&rsquo;t
+yet figured out why this is happening or what the solution is, but until I do,
+I&rsquo;m setting my PATH variable in .profile instead. I recommend you do the same.</ins></p>
+
+<h2>TL;DR</h2>
+
+<p>Setting up a directory to run local applications is very simple. You just need
+to do two things:</p>
+
+<ol>
+<li><p>Create a directory for them. I like to use <code>.local/bin</code> in my home directory.</p></li>
+<li><p>Edit the PATH in one of the files that sets environment variables. In Ubuntu,
+I recommended setting it in <del>.pam_environment</del> <ins>.profile</ins>.</p></li>
+</ol>
+
+
+<h2>Introduction</h2>
+
+<p>I really enjoy using Ubuntu, and GNU/Linux systems in general. In my opinion,
+they&rsquo;re ideal for web development.</p>
+
+<p>A situation I&rsquo;ve run across recently is when I want to run applications that
+exist in my user directory, rather than in the system directories. <!--more-->
+These might be programs I created or compiled myself, or they might have been
+installed by a package manager other than the system package manager (in
+Ubuntu&rsquo;s case, APT).</p>
+
+<p>For example, several software environments I work with have their own dedicated
+package managers. Node.js has npm, Ruby has gem, and TeX Live has tlmgr, to name
+a few. And while it&rsquo;s true that many of the packages available through these
+managers can be installed from Ubuntu&rsquo;s main repositories, I&rsquo;ve decided that it&rsquo;s
+better to use the dedicated managers when they exist. That way I can be sure to
+have the most up-to-date packages, and they&rsquo;re generally easier to work with.</p>
+
+<p>I&rsquo;ve also decided that when I&rsquo;m using dedicated package managers, I want them to
+install to my home directory rather than to the default system directories. This
+may just be a personal preference, but I like not having to type <code>sudo</code> before
+every install command. It also feels a bit safer: since I&rsquo;m only making changes
+to my home directory, nothing that goes wrong can be <em>that</em> catastrophic, and
+the changes are easier to undo.</p>
+
+<p>In this post I&rsquo;m just going to focus on how I like to configure my system to run
+applications out of my home directory, without going into specifics about
+the different package managers. It all basically boils down to two steps:</p>
+
+<ol>
+<li><p>Create a place to keep local applications.</p></li>
+<li><p>Tell the system to look in that place when searching for applications.</p></li>
+</ol>
+
+
+<h2>Create a Directory for Local Applications</h2>
+
+<p>There really is no one right place to put an application directory. It basically
+comes down to what works best for you. What matters is that you have write
+permissions to the directory, meaning you don&rsquo;t have to use <code>sudo</code> to make any
+changes to it or inside it. Normally, that means inside your home directory.</p>
+
+<p>I&rsquo;ve seen several different approaches. Some people like to create a <code>bin</code> folder
+right inside their home directory (&ldquo;bin&rdquo; stands for &ldquo;binaries&rdquo;). Others create
+a <code>local/bin</code> structure, mirroring the <code>/usr/local/bin</code> system directory found
+in the standard UNIX filesystem. Wikipedia says the following about the
+purpose of the <code>/usr/local</code> directory:</p>
+
+<blockquote><p>Resembles /usr in structure, but its subdirectories are used for additions not<br/>part of the operating system distribution, such as custom programs or files from<br/>a BSD Ports collection. Usually has subdirectories such as /usr/local/lib or<br/>/usr/local/bin.</p><footer><strong>Wikipedia</strong> <cite><a href='http://en.wikipedia.org/wiki/Unix_directory_structure#Conventional_directory_layout'>Unix Directory Structure</a></cite></footer></blockquote>
+
+
+<p>Based on this description, <code>local/bin</code> seems like a fitting place. This is my
+choice, with one small difference: I use <code>.local</code> instead of <code>local</code>. The dot
+in front of the name makes it a hidden directory, so it won&rsquo;t show up with an
+<code>ls</code> command unless you use the <code>-a</code> flag, and it won&rsquo;t be visible in a file
+manager unless you set it to show hidden files (usually with Ctrl+H). I like it
+that way, because normally when I&rsquo;m working in my home directory, I&rsquo;m only
+concerned about files per se and not about programs. It just makes things feel
+less cluttered to me. Also, Ubuntu already happens to have a <code>.local</code> directory
+in your home directory by default. Not very compelling reasons, I know, but
+that&rsquo;s what I do.</p>
+
+<p>So if you&rsquo;re still following along, create a <code>bin</code> directory wherever you like
+and then change into it.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ mkdir ~/.local/bin && cd $_</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now let&rsquo;s create a simple shell script to see if it&rsquo;s working. Create a file
+called &ldquo;tron&rdquo; using the editor of your choice. Nano is probably the simplest.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ nano tron</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And, of course, you can call the script whatever you want, but I like knowing
+that a program is fighting for me.</p>
+
+<figure class='code'><figcaption><span> (tron)</span> <a href='http://garrettn.github.io/downloads/code/tron'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='sh'><span class='line'><span class="c">#!/bin/sh</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">echo</span> <span class="s2">&quot;I fight for the users!&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Once you&rsquo;ve saved the file, set it to be executable.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ chmod +x tron</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now try calling the program. If you call it without any path, you should see an
+error.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ tron
+</span><span class='line'>tron: command not found</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This error occurs because the shell doesn&rsquo;t know where to find the command <code>tron</code>.
+If you tell it the exact directory to find it in, it will work. Right now, since
+we&rsquo;re in the same directory, it&rsquo;s as simple as typing <code>./tron</code>. But that could
+become rather annoying rather quickly if you need to remember the directory and
+type it in, no matter where you are, any time you need to use the program.</p>
+
+<p>Fortunately, there is a better way. What we need to do is change an environment
+variable called PATH.</p>
+
+<h2>Change PATH to Recognize the Directory</h2>
+
+<p>PATH is an environment variable that the system uses to find executables. It&rsquo;s
+essentially a list of directories separated by colons. When you type in a
+command, the shell will search through the directories listed in PATH, going
+from left to right. As soon as it finds an executable that matches, it will run
+it. If it doesn&rsquo;t find it, you&rsquo;ll see an error like the one above.</p>
+
+<p>To see what your current PATH is, you can type <code>echo $PATH</code>. You should see
+something like this, though probably not exactly like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ echo $PATH
+</span><span class='line'>/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Unless you&rsquo;ve already made changes to PATH, you should see only system directories
+there. What we need to do is add our custom directory to the list.</p>
+
+<p>To change PATH on the fly, we can use the <code>export</code> command:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ export PATH=~/.local/bin:$PATH</span></code></pre></td></tr></table></div></figure>
+
+
+<p><strong>Important note:</strong> Whenever you modify PATH, it&rsquo;s important that you include a
+reference to the existing PATH. Otherwise you&rsquo;ll overwrite the whole thing, and
+you&rsquo;ll lose access to critical commands. References to existing environment
+variables are prefixed by the dollar sign.</p>
+
+<p>This command works easily enough, but as soon as you close the terminal or log
+out, your changes will be forgotten. To make your changes persist between
+sessions, you need to edit a file in your home directory.</p>
+
+<p>Here&rsquo;s where it gets a little tricky. There are several hidden files in your
+home directory that have the potential to change environment variables (see
+also <a href="https://help.ubuntu.com/community/EnvironmentVariables#Session-wide_environment_variables">EnvironmentVariables</a> from the Ubuntu wiki):</p>
+
+<ul>
+<li><p><strong>.bashrc</strong>&mdash;This is possibly the simplest place to set them. It&rsquo;s basically a
+script that gets run every time you start a bash session as a <strong>non-login shell</strong>
+(e.g., when you open up a new terminal window). You can just add the <code>export</code>
+command described above to the end of this file, and the next time you start a
+bash session, it will work. But if you need to access your programs outside of
+a bash shell, you&rsquo;re out of luck.</p></li>
+<li><p><strong>.profile</strong>&mdash;This script is run every time you start a <strong>login shell</strong>. That
+includes graphical environments, so when you log in to your normal desktop, this
+script will run. The advantage here is that it runs only once when you log in,
+rather than every time you open a terminal window (although if you&rsquo;re only
+setting environment variables, the performance gains will be negligible). This
+script is also sourced when you log in via SSH.</p></li>
+<li><p><strong>.bash_profile</strong>&mdash;This one is similar to .profile, except it runs only in a
+login bash shell (such as through SSH). Ubuntu doesn&rsquo;t have this file by default,
+but other systems might.</p></li>
+<li><p><strong>.pam_environment</strong>&mdash;Ubuntu is the only distro I&rsquo;m aware of that uses this
+file. This one is unique in that it is only for setting environment variables
+(you can&rsquo;t run arbitrary script commands in it). It also has a different syntax
+from the others. This file is read when you log in&mdash;before .profile is read, as
+far as I can tell.</p></li>
+</ul>
+
+
+<p>The Ubuntu wiki recommends setting environment variables in .pam_environment, <del>so
+that&rsquo;s what I do as far as it is possible</del>. <ins>(<strong>Update 11 Nov 2013:</strong> After
+upgrading to Ubuntu 13.10, I&rsquo;ve found that having anything in .pam_environment
+prevents me from being able to log in, even if the syntax is correct. Until I find
+a solution, I&rsquo;m now setting my path in .profile.)</ins> As I mentioned, the syntax
+for this file is different. You can refer to the <code>pam_env.conf</code> man page for details
+(either <a href="http://linux.die.net/man/5/pam_env.conf">online</a> or by entering <code>man pam_env.conf</code>), but here are the main
+things you need to watch out for.</p>
+
+<ul>
+<li><p>Each line is a variable declaration, taking this form:</p>
+
+<p><code>VARIABLE [DEFAULT=[value]] [OVERRIDE=[value]]</code></p>
+
+<p>You can use either <code>DEFAULT</code> or <code>OVERRIDE</code>, or both. I just use <code>DEFAULT</code>.</p></li>
+<li><p>When referencing other variables, use the form <code>${VARIABLE}</code>. Note the curly
+braces&mdash;other files don&rsquo;t use them, but this one does.</p></li>
+</ul>
+
+
+<p>With those caveats out of the way, you&rsquo;re ready to create your .pam_environment
+file (there most likely won&rsquo;t already be one). Change back to your home
+directory and create the file.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd
+</span><span class='line'>$ nano .pam_environment</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And just add the following line to the file:</p>
+
+<figure class='code'><figcaption><span>.pam_environment (pam_environment)</span> <a href='http://garrettn.github.io/downloads/code/pam_environment'>download</a></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>PATH DEFAULT=<span class="cp">${</span><span class="n">HOME</span><span class="cp">}</span>/.local/bin:<span class="cp">${</span><span class="n">PATH</span><span class="cp">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>What we&rsquo;ve done here is set the default PATH to include the <code>.local/bin</code> folder
+inside your home directory (the HOME variable points to your home directory),
+and then the rest of the existing path. As I mentioned before, PATH is a
+colon-separated list of directories. While you could technically list the items
+in any order, keep in mind that the list is read from left to right, so something
+in one directory will override another thing of the same name down the list.</p>
+
+<p><strong>Important note:</strong> Be absolutely certain that you have the syntax for this
+file correct. If you don&rsquo;t, you may not be able to log back in after you&rsquo;ve
+logged out. The Something Groovy blog <a href="http://somethinggroovy.blogspot.com/2012/07/pamenvironment-syntax-in-ubuntu.html">has a horror story about this happening</a>.
+So just be careful.</p>
+
+<p>Once you&rsquo;ve ensured that the syntax is correct, save the file and then log out.
+Any change to this file will take effect only after you&rsquo;ve logged out and back
+in again.</p>
+
+<p>After you&rsquo;ve logged back in, commands in that <code>.local/bin</code> folder should now be
+accessible to you. Go ahead and test it out by seeing if Tron is still fighting
+for you. Open up a terminal and type:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ tron</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If all went well, you should see the response:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>I fight for the users!</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Hooray for Tron! Now you have a convenient location to put your local
+applications that you can access on the command line from anywhere in the
+filesystem. Enjoy!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Keep all your Octopress plugins in one place]]></title>
+    <summary><![CDATA[A quick tip to help you keep your Octopress plugins organized and up to date]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place/"/>
+    <updated>2013-10-07T15:57:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place</id>
+    <content type="html"><![CDATA[<p>Since I&rsquo;m still getting this blog started and learning the ropes with Octopress,
+in my first few posts I&rsquo;m probably goint to talk about it a lot. So far it&rsquo;s
+been quite a journey.</p>
+
+<p>I&rsquo;m starting to incorporate some third-party plugins <a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">of which there many</a>.
+These plugins add some very useful functionality, and I highly recommend you
+check them out.</p>
+
+<p>One thing I&rsquo;ve noticed that for several plugins (if not all&mdash;I haven&rsquo;t checked),
+in order to install them you have to download multiple files and copy them into
+different places in your project.<!--more--> There&rsquo;s nothing wrong with that;
+it&rsquo;s just the way it works. But what if you want to keep track of where those
+plugin files came from? What if you want to keep them up to date easily without
+downloading them individually from GitHub every time there&rsquo;s an update? I&rsquo;ve
+found a way to address these issues painlessly (or at least less painfully)
+using Git submodules.</p>
+
+<h2>Installing Plugins as Git Submodules</h2>
+
+<p><a href="http://git-scm.com/book/en/Git-Tools-Submodules">Submodules are a pretty funky feature of Git</a> that allow you to include
+another repository as a sub-project of your main repository, keeping track of
+their relationship to each other while still keeping them independent. Weird,
+right?</p>
+
+<p>Let me illustrate. Let&rsquo;s say I want to replace Octopress&rsquo;s default Google site
+search with the awesome service from <a href="http://tapirgo.com">Tapir</a>. Wouldn&rsquo;t you know it,
+<a href="https://github.com/blimey85/octopress-tapir">there&rsquo;s a plugin for that</a> (and a mighty fine one if I do say so myself!).
+But instead of just downloading the files and copying them as instructed in the
+readme, I&rsquo;m going to add this repository as a submodule of my blog repository.</p>
+
+<p>Here is how I add it as a submodule:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git submodule add https://github.com/blimey85/octopress-tapir .plugin-sources/tapir</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It&rsquo;s essentially the same syntax as <code>git clone</code>. I&rsquo;m cloning it into a directory
+called <code>.plugin-sources/tapir</code>, which will be created if it doesn&rsquo;t already
+exist. I&rsquo;m calling it <code>.plugin-sources</code> to differentiate it from the <code>plugins</code>
+directory, which contains only Ruby scripts for various plugins. The dot is there
+to keep it hidden and consistent with the <code>.themes</code> directory.</p>
+
+<p>The output of that command looks pretty much the same as what you&rsquo;d see with
+<code>git clone</code>. But when I enter <code>git status</code>, the result is different.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git status
+</span><span class='line'># On branch source
+</span><span class='line'># Changes to be committed:
+</span><span class='line'>#   (use "git reset HEAD &lt;file&gt;..." to unstage)
+</span><span class='line'>#
+</span><span class='line'># new file:   .gitmodules
+</span><span class='line'># new file:   .plugin-sources/tapir
+</span><span class='line'>#</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There&rsquo;s a new file called <code>.gitmodules</code>; this is where Git lists information
+about each submodule that you&rsquo;ve installed. Also notice that the
+<code>.plugin-sources/tapir</code> directory is there, but it&rsquo;s listed as a file. As far
+as my master repository is concerned, that directory is nothing but a single
+file, and it doesn&rsquo;t care what goes on inside that repository.</p>
+
+<p>Until there&rsquo;s new commit in it, that is. You see, the submodule is a special
+type of file that points to a specific commit of the repository. If the
+repository changes what commit it&rsquo;s on, either from your own work or from pulling
+in updates, the outer repository of my project will notice and consider it a
+modified file. More on that in a bit.</p>
+
+<p>First, I will commit my changes and push them to <a href="http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/">my backup repository</a>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git commit -m "Add Tapir plugin"
+</span><span class='line'>$ git push backup source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There! Now that plugin is saved in my repository, and I can copy the necessary
+files out of it. And if I ever need to work on my blog on another machine, I
+just do a recursive clone to include all the submodules with it.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone --recursive ssh://git@bitbucket.org/garrettnay/garrettn.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Updating the Plugins</h2>
+
+<p>So let&rsquo;s say at some point in the future, I&rsquo;m strolling around GitHub and I find
+out that the Tapir plugin has been updated. I want to incorporate those updates
+into my blog, and since I&rsquo;ve installed the plugin as a submodule, it&rsquo;s easy to
+do.</p>
+
+<p>All I have to do is go into the plugin directory and use Git to pull in the
+changes from GitHub.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd .plugin-sources/tapir
+</span><span class='line'>
+</span><span class='line'>$ git pull
+</span><span class='line'>## OR ##
+</span><span class='line'>$ git fetch origin
+</span><span class='line'>$ git merge origin/master</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now I have the latest version, and I can copy the updated files into my project.</p>
+
+<p>When I go back into the root directory of my blog, Git tells me that the
+submodule has been changed. Specifically, there are new commits on that
+repository.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git status
+</span><span class='line'># On branch source
+</span><span class='line'># Changes not staged for commit:
+</span><span class='line'>#   (use "git add &lt;file&gt;..." to update what will be committed)
+</span><span class='line'>#   (use "git checkout -- &lt;file&gt;..." to discard changes in working directory)
+</span><span class='line'>#
+</span><span class='line'># modified:   .plugin-sources/tapir (new commits)
+</span><span class='line'>#
+</span><span class='line'>no changes added to commit (use "git add" and/or "git commit -a")</span></code></pre></td></tr></table></div></figure>
+
+
+<p>This basically means that submodule is pointing to one commit, but the repository
+itself is now pointing to a different (newer) one. To get the submodule lined
+up with the repository, I just to a <code>submodule update</code> command.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git submodule update
+</span><span class='line'>Submodule path '.plugin-sources/tapir': checked out 'e20ce325efa29ca9deb0ac952085b3cf27462275'</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The hash will be different, depending on the commit. But the submodule has now
+been updated, and I am all set to use the new plugin!</p>
+
+<p>So that&rsquo;s how I manage my plugins with Octopress. One issue I haven&rsquo;t addressed
+is the fact that I still have to manually copy new or updated files into my
+project directory. I might try using symbolic links instead, but I would need to
+experiment with that first. This system isn&rsquo;t perfect, but at least it is one
+step above manually downloading individual files from the project repository.</p>
+
+<p>How do <em>you</em> like to manage your Octopress plugins?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress: Deploy to GitHub, back up to Bitbucket]]></title>
+    <summary><![CDATA[Deploy your Octopress blog publicly to GitHub Pages and back it up privately to Bitbucket.]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/"/>
+    <updated>2013-10-03T18:22:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s probably pretty obvious that this blog is built with <a href="http://octopress.org">Octopress</a>.
+Obvious at least until I use a new theme.</p>
+
+<p>Octopress is built on top of the static site generator <a href="http://jekyllrb.com">Jekyll</a>, and together
+they make a fantastic blogging platform for hacker types. You can write your
+posts in your favorite editor in plain text, you can track your changes with
+Git, and you can publish on any web server that can serve static HTMl, CSS, and
+JavaScript&mdash;no database necessary!</p>
+
+<p>One popular place to deploy an Octopress blog is on <a href="http://pages.github.com">GitHub Pages</a>, and
+Octopress has built-in functionality to make it trivially easy to do.<!--more-->
+The blog you&rsquo;re reading right now is a testament to how simple it is (as is the
+fact that the &ldquo;Octo&rdquo; in Octopress refers to the GitHub mascot, Octocat, I
+believe.)</p>
+
+<h2>Setting Up Deployment to GitHub</h2>
+
+<p>The first thing you need to do, obviously, is create an account on GitHub. When
+you have an account set up, you then create a repository that takes the form
+<code>username.github.io</code>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> GitHub will automatically recognize this repo as your
+personal site, and any static web content you push here will be published.</p>
+
+<p>Next, if you haven&rsquo;t already done so, <a href="http://octopress.org/docs/setup/">clone the Octopress repository on your computer and install the dependencies</a>.</p>
+
+<p>Once Bundler finishes installing all the gems, you&rsquo;ll have the <code>rake</code> command
+available to you with lots of tasks already configured to help you customize,
+preview, generate, and deploy your blog.</p>
+
+<p>The Rake task I want to focus on here is the aptly named <code>setup_github_pages</code>.
+Simply invoke that task to get started.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake setup_github_pages</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It will now ask you for the URL for your repository. You can use either the
+Git or HTTPS protocol, both of which should be easy to find on your
+repository page. For this example, I&rsquo;ll use the URL for my own GitHub pages
+repo.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Enter the read/write url for your repository
+</span><span class='line'>(For example, 'git@github.com:your_username/your_username.github.io.git)
+</span><span class='line'>           or 'https://github.com/your_username/your_username.github.io')
+</span><span class='line'>Repository url: git@github.com:garrettn/garrettn.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And that&rsquo;s all you need to do! You should now see a bunch of output like this:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>Added remote git@github.com:garrettn/garrettn.github.io.git as origin
+</span><span class='line'>Set origin as default remote
+</span><span class='line'>Master branch renamed to 'source' for committing your blog source files
+</span><span class='line'>rm -rf _deploy
+</span><span class='line'>mkdir _deploy
+</span><span class='line'>cd _deploy
+</span><span class='line'>Initialized empty Git repository in ......./garrettn.github.io/_deploy/.git/
+</span><span class='line'>[master (root-commit) 2d8c9ba] Octopress init
+</span><span class='line'> 1 file changed, 1 insertion(+)
+</span><span class='line'> create mode 100644 index.html
+</span><span class='line'>cd -
+</span><span class='line'>
+</span><span class='line'>---
+</span><span class='line'>## Now you can deploy to git@github.com:garrettn/garrettn.github.io.git with `rake deploy` ##</span></code></pre></td></tr></table></div></figure>
+
+
+<p>A couple important things have happened here:</p>
+
+<ol>
+<li><p>The task added your repo URL as a Git remote and named it &ldquo;origin.&rdquo; If you
+had cloned Octopress from the official repo, that remote was renamed to
+&ldquo;octopress,&rdquo; and it&rsquo;s still available so you can conveniently pull in changes
+from upstream.</p></li>
+<li><p>The master branch, which was up to this point called &ldquo;master,&rdquo; was renamed to
+&ldquo;source.&rdquo;</p></li>
+<li><p>A new <code>_deploy</code> directory was created, and inside that directory a new Git
+repository was created with that same remote as &ldquo;origin.&rdquo; This folder will be
+ignored by Git in the root of your project, but here is where the &ldquo;master&rdquo; branch
+is that will actually be pushed to your repository on GitHub.</p></li>
+</ol>
+
+
+<p>Now, like the script says, you simply need to enter <code>rake deploy</code> to make the
+magic happen. You can run this command right after you generate your site.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate
+</span><span class='line'>$ rake deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When you invoke the <code>generate</code> command, your site will be generated into the
+<code>public</code> directory. The <code>deploy</code> task will then go into the <code>_deploy</code> directory
+and pull in any changes there may be on the server (there shouldn&rsquo;t be). Next, it
+will copy the contents of the <code>public</code> directory into <code>_deploy</code> and commit the
+changes to the master branch. Finally, it will push that branch up to your remote
+repository on GitHub.</p>
+
+<p>Within about 10 minutes, you should see shiny new blog at <code>username.github.io</code>.
+That was easy, wasn&rsquo;t it?</p>
+
+<h2>What About the Source Files?</h2>
+
+<p>As I said before, the Rake task for setting up deployment changes your main
+branch from &ldquo;master&rdquo; to &ldquo;source.&rdquo; Since the deployment task only pushes the
+master branch, it&rsquo;s completely up to you what to do with the source. You&rsquo;ll want
+to back it up somewhere, and probably the easiest thing to do is to push that
+branch up to GitHub also.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push -u origin source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>But suppose you don&rsquo;t want your source files to be publicly accessible? It might
+be a silly thing to worry about, since everything in your source files gets
+published to the site anyway. But what if you are working on a post that isn&rsquo;t
+quite ready for prime time? Jekyll lets you set an option in the YAML front
+matter of a post called <code>published</code>. When it is set to <code>false</code>, you&rsquo;ll still
+see the post when you&rsquo;re previewing your site locally, but it won&rsquo;t get
+generated for deployment.</p>
+
+<p>So if you&rsquo;re working on a post that&rsquo;s going through several revisions, you might
+not want to make it publicly accessible yet, but you&rsquo;ll probably still want to
+back it up somewhere. What to do?</p>
+
+<p>One of the simplest solutions is Bitbucket.</p>
+
+<h2>Backing Up to Bitbucket</h2>
+
+<p><a href="https://bitbucket.org">Bitbucket</a> is another code hosting service, perhaps not as popular as GitHub,
+but still awesome and here&rsquo;s why: <strong>unlimited free private repositories</strong>.
+Whereas GitHub charges you for any amount of private repos, Bitbucket bases its
+payment scheme on how many users you have collaborating on your repos (it&rsquo;s
+free for up to five users). So if you have a private project that you want to
+back up to a safe place but not where it can be accessed by anybody, Bitbucket
+is an excellent resource.</p>
+
+<p>So here&rsquo;s what you do: Create a Bitbucket account if you don&rsquo;t have one, and
+then set up a new repository for your Octopress source files (I gave it the same
+name as on GitHub). On the page for your new repository, you&rsquo;ll find a URL that
+you can add to your local Git repository. Then you simply add that remote. I
+called mine &ldquo;backup.&rdquo;</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git remote add backup ssh://git@bitbucket.org/garrettnay/garrettn.github.io.git</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now, whenever you have commits you want to back up, simply push the source
+branch up to Bitbucket.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git push -u backup source</span></code></pre></td></tr></table></div></figure>
+
+
+<p>(Use the <code>-u</code> option the first time to set up a tracking branch. After that it&rsquo;s
+no longer necessary.)</p>
+
+<p>And that&rsquo;s all there is to it! Now you have an easy way to deploy your blog,
+and also a place to back it up away from prying eyes. It&rsquo;s a setup that&rsquo;s worked
+really well for me.</p>
+
+<p>See, I told you Octopress was fun.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m not going to go into details here about how to create repositories on GitHub or Bitbucket. The process on both sites is pretty straightforward, and they both have excellent documentation.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We're all learning here]]></title>
+    <summary><![CDATA[I'm creating this blog so I can help someone with what I've learned about web development.]]></summary>
+    <link href="http://garrettn.github.io/blog/2013/10/01/were-all-learning-here/"/>
+    <updated>2013-10-01T18:43:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/01/were-all-learning-here</id>
+    <content type="html"><![CDATA[<p>Hello, world! Here&rsquo;s another blog about web development. I&rsquo;m a relative newcomer
+to the web development industry, and while it may seem pointless to add yet
+another entry to the roster of dev blogs out there, I have several reasons for
+wanting to do it:</p>
+
+<!--more-->
+
+
+<ul>
+<li><p>I&rsquo;ve been using open-source software heavily for several years now, and I&rsquo;m
+starting to feel the urge to jump in and become a more active part of the
+community.</p></li>
+<li><p>I learn things better when I teach them to others, so as I&rsquo;m learning (and I
+have a lot to learn!) I want to use this blog as a vehicle to explain what I&rsquo;m
+learning, and thus hopefully solidify my own understanding.</p></li>
+<li><p>It works as an &ldquo;accountability journal,&rdquo; encouraging me to more actively work
+on my projects so I have something to write about.</p></li>
+<li><p><a href="http://octopress.org">Octopress</a> is really fun to use.</p></li>
+<li><p>Above all, I hope that, once in a while, <strong>I&rsquo;ll be able to help somebody</strong>.</p></li>
+</ul>
+
+
+<p>That last reason is the most important. As I said before, I&rsquo;m fairly new to web
+development, and for the past year-and-a-half or so I have been devouring
+information on it wherever I can get it. Sites like the <a href="http://hub.tutsplus.com">Tuts+ network</a> are
+incredible sources of knowledge that I&rsquo;ve benefited from extensively. But also,
+there are lots of those lesser-known personal dev blogs that I&rsquo;ve received a lot
+of help from. These are developers that write about the work they do, and when
+they come across tricky problems or discover cool new ways of doing things, they
+write about that so that everyone else can benefit from their experience. Many
+times I have turned to the Internet with some baffling problem and found the
+answer on some blog I&rsquo;d never heard of.</p>
+
+<p>That is what I want this blog to be. I hope that in documenting my experiences
+as a developer, I can help some other learner who is dealing with the same
+problems I have found. After all, we&rsquo;re all learning here in this industry, and
+we all have something to teach each other.</p>
+
+<p>So thank you for reading, and here&rsquo;s to learning!</p>
+]]></content>
+  </entry>
+  
+</feed>

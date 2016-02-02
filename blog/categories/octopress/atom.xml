@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Garrett Nay]]></title>
+  <link href="http://garrettn.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://garrettn.github.io/"/>
+  <updated>2016-02-02T07:48:14-07:00</updated>
+  <id>http://garrettn.github.io/</id>
+  <author>
+    <name><![CDATA[Garrett Nay]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Obligatory Redesign Post]]></title>
+    <link href="http://garrettn.github.io/blog/2014/06/10/the-obligatory-redesign-post/"/>
+    <updated>2014-06-10T07:00:48-06:00</updated>
+    <id>http://garrettn.github.io/blog/2014/06/10/the-obligatory-redesign-post</id>
+    <content type="html"><![CDATA[<p>Hi. Yes, I&rsquo;m still here. And check out my new design! It may not look like much, but it represents a big step for me.</p>
+
+<p>You see, ever since I started this Octopress blog, I always had this nagging feeling that I should do something about the design. The default Octopress theme is nice, but nobody wants to stick with the default theme, right? It&rsquo;s like how Twitter Bootstrap looks nice, but it&rsquo;s so nice that for a while it seemed as if half of the Web were using it. You could spot a Bootstrap-based site immediately (still can, I suppose). And you could pin my blog as an Octopress blog immediately, too. Not that that was a bad thing, but I didn&rsquo;t want this to get written off as &ldquo;yet another Octopress blog.&rdquo;</p>
+
+<p>I wanted to create a new theme. Oh, I had big plans. I envisioned adapting one of the awesome templates by <a href="http://html5up.net">HTML5 Up</a>, and eventually open-sourcing it so everyone could easily integrate it into their own Octopress blogs. But then some things started happening in <a href="https://twitter.com/octopress">the Octopress world</a> that put me in stop-and-wait mode for quite a while.</p>
+
+<!-- more -->
+
+
+<h2>Octopress 3?</h2>
+
+<p>A few months ago, I learned that <a href="https://twitter.com/imathis">Brandon Mathis</a>, the creator of Octopress, is working on version 3.0 of the project. This isn&rsquo;t just an evolution of version 2&mdash;it&rsquo;s a completely new way of working. It&rsquo;s so different, in fact, that he created <a href="https://github.com/octopress/octopress">a new repository</a> for it. Octopress 3.0 is a Ruby gem rather than just a Git repository that you clone and modify, which is how 2.0 works. And all its various components are separated out into individual gems, including the way <a href="https://github.com/octopress/ink">themes and plugins</a> work.</p>
+
+<p>And when I heard about this new version, it sounded like it was going to have a stable release very soon, so I thought, cool, I would wait and see how the whole thing worked, and then I could migrate my blog and apply my new theme using the new system.</p>
+
+<p>Fast forward a few months, and Octopress 3.0 still isn&rsquo;t <em>quite</em> done. To be more precise, the Octopress gem is pretty much there, but Octopress Ink, the plugin and theme framework, is still being worked on. I believe it&rsquo;s almost ready, but the documentation is still very sparse, and I don&rsquo;t think I have the time or the energy to dig into it and figure out how it works for myself, especially since I know very little Ruby.</p>
+
+<p>Don&rsquo;t get me wrong. I don&rsquo;t blame Brandon at all for having this take longer than planned. That&rsquo;s just how things go sometimes, and he clearly wants this to be the best product it can be. But because of the long delay, I started thinking about turning to other solutions.</p>
+
+<h2>What About This Assemble Thing?</h2>
+
+<p>Perhaps you&rsquo;ve heard of <a href="http://assemble.io">Assemble</a>, the static site generator for Node.js. It&rsquo;s essentially the Node counterpart of Ruby&rsquo;s Jekyll, which Octopress is based on. It works as a Grunt plugin, and it even has a Yeoman generator, the bottom line being that it uses technologies that I&rsquo;m much more familiar with.</p>
+
+<p>I was excited about Assemble for a while. Since it uses Grunt, a tool I now have a fair amount of experience with, I could potentially customize my blog to be exactly how I wanted it, including the theme. The possibilities seemed endless.</p>
+
+<p>Unfortunately, the Assemble project is still fairly young, and its documentation is pretty limited. I searched long and hard for information on how I could make Assemble work as a replacement for Octopress, but all I could find was partial answers. There is also some functionality that I need that isn&rsquo;t quite there yet.</p>
+
+<p>I know, Assemble is an open-source project&mdash;including its documentation&mdash;and instead of complaining about it I should just contribute to making it better. And I really might someday. But when it comes down to it, I have to decide: How much time and energy am I willing to invest in hacking on my blog, when simpler solutions are available?</p>
+
+<h2>Sticking with Version 2 For Now</h2>
+
+<p>Sometimes, even with all the desire for hacking and customizing, you just want it to work. And the fact of the matter is that Octopress 2 does work for me. There are a few hiccups now and then, mainly dealing with syntax highlighting, which I hope will be improved in the new version. But overall it has been a solid blogging platform, one that is simple to set up and simple to work with.</p>
+
+<p>So in the end, I&rsquo;ve decided to stay with Octopress version 2 for the time being. I&rsquo;ll keep watching the progress on version 3, because I&rsquo;m still eager to upgrade when the time is right. I&rsquo;ll also keep tabs on Assemble because I still want to take advantage of it some day, if not for this blog, then for other projects. But as for me and my dev blog, we will use Octopress 2.</p>
+
+<p>Having decided that, I looked around for a theme that would work with Octopress 2. It didn&rsquo;t need to be anything fancy, just something different enough from the default. Turns out there are <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">quite a few themes</a> available, and some have even been created quite recently. And now that I&rsquo;ve found a theme that I&rsquo;m happy with (after a few tweaks), I feel like I can keep writing on this blog without that redesign monkey on my back.</p>
+
+<h2>For the Record&mdash;Theme Details</h2>
+
+<p>I feel I should give credit where credit is due. The design of this blog is mostly thanks to the work of people more skilled than I.</p>
+
+<ul>
+<li>The theme is 95% based on <a href="https://github.com/johnkeith/boldandblue">Bold and Blue</a> by <a href="http://www.johnkeith.us">John Keith</a>.</li>
+<li>The sans-serif font (modified from the original theme) is <a href="http://mozilla.github.io/Fira">Fira Sans</a>, an open-source font provided by Mozilla.</li>
+<li>The speckled noise background in the header comes from the <a href="http://philbit.com/svgpatterns/">SVG Patterns Library</a>.</li>
+<li>The social icons were provided by <a href="http://icomoon.io">IcoMoon</a>.</li>
+</ul>
+
+
+<p>Okay, now that the obligatory redesign post is out of the way, let&rsquo;s move on to brighter age of dev blogging!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Keep All Your Octopress Plugins in One Place]]></title>
+    <link href="http://garrettn.github.io/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place/"/>
+    <updated>2013-10-07T15:57:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/07/keep-all-your-octopress-plugins-in-one-place</id>
+    <content type="html"><![CDATA[<p>Since I&rsquo;m still getting this blog started and learning the ropes with Octopress,
+in my first few posts I&rsquo;m probably goint to talk about it a lot. So far it&rsquo;s
+been quite a journey.</p>
+
+<p>I&rsquo;m starting to incorporate some third-party plugins <a href="https://github.com/imathis/octopress/wiki/3rd-party-plugins">of which there many</a>.
+These plugins add some very useful functionality, and I highly recommend you
+check them out.</p>
+
+<p>One thing I&rsquo;ve noticed that for several plugins (if not all&mdash;I haven&rsquo;t checked),
+in order to install them you have to download multiple files and copy them into
+different places in your project.<!--more--> There&rsquo;s nothing wrong with that;
+it&rsquo;s just the way it works. But what if you want to keep track of where those
+plugin files came from? What if you want to keep them up to date easily without
+downloading them individually from GitHub every time there&rsquo;s an update? I&rsquo;ve
+found a way to address these issues painlessly (or at least less painfully)
+using Git submodules.</p>
+
+<h2>Installing Plugins as Git Submodules</h2>
+
+<p><a href="http://git-scm.com/book/en/Git-Tools-Submodules">Submodules are a pretty funky feature of Git</a> that allow you to include
+another repository as a sub-project of your main repository, keeping track of
+their relationship to each other while still keeping them independent. Weird,
+right?</p>
+
+<p>Let me illustrate. Let&rsquo;s say I want to replace Octopress&rsquo;s default Google site
+search with the awesome service from <a href="http://tapirgo.com">Tapir</a>. Wouldn&rsquo;t you know it,
+<a href="https://github.com/blimey85/octopress-tapir">there&rsquo;s a plugin for that</a> (and a mighty fine one if I do say so myself!).
+But instead of just downloading the files and copying them as instructed in the
+readme, I&rsquo;m going to add this repository as a submodule of my blog repository.</p>
+
+<p>Here is how I add it as a submodule:</p>
+
+<p><code>
+$ git submodule add https://github.com/blimey85/octopress-tapir .plugin-sources/tapir
+</code></p>
+
+<p>It&rsquo;s essentially the same syntax as <code>git clone</code>. I&rsquo;m cloning it into a directory
+called <code>.plugin-sources/tapir</code>, which will be created if it doesn&rsquo;t already
+exist. I&rsquo;m calling it <code>.plugin-sources</code> to differentiate it from the <code>plugins</code>
+directory, which contains only Ruby scripts for various plugins. The dot is there
+to keep it hidden and consistent with the <code>.themes</code> directory.</p>
+
+<p>The output of that command looks pretty much the same as what you&rsquo;d see with
+<code>git clone</code>. But when I enter <code>git status</code>, the result is different.</p>
+
+<p>```
+$ git status</p>
+
+<h1>On branch source</h1>
+
+<h1>Changes to be committed:</h1>
+
+<h1>(use &ldquo;git reset HEAD <file>&hellip;&rdquo; to unstage)</h1>
+
+<p>#</p>
+
+<h1>new file:   .gitmodules</h1>
+
+<h1>new file:   .plugin-sources/tapir</h1>
+
+<p>#
+<code>``
+There's a new file called</code>.gitmodules<code>; this is where Git lists information
+about each submodule that you've installed. Also notice that the
+</code>.plugin-sources/tapir` directory is there, but it&rsquo;s listed as a file. As far
+as my master repository is concerned, that directory is nothing but a single
+file, and it doesn&rsquo;t care what goes on inside that repository.</p>
+
+<p>Until there&rsquo;s new commit in it, that is. You see, the submodule is a special
+type of file that points to a specific commit of the repository. If the
+repository changes what commit it&rsquo;s on, either from your own work or from pulling
+in updates, the outer repository of my project will notice and consider it a
+modified file. More on that in a bit.</p>
+
+<p>First, I will commit my changes and push them to <a href="/blog/2013/10/03/octopress-deploy-to-github/">my backup repository</a>.</p>
+
+<p><code>
+$ git commit -m "Add Tapir plugin"
+$ git push backup source
+</code></p>
+
+<p>There! Now that plugin is saved in my repository, and I can copy the necessary
+files out of it. And if I ever need to work on my blog on another machine, I
+just do a recursive clone to include all the submodules with it.</p>
+
+<p><code>
+$ git clone --recursive ssh://git@bitbucket.org/garrettnay/garrettn.github.io.git
+</code></p>
+
+<h2>Updating the Plugins</h2>
+
+<p>So let&rsquo;s say at some point in the future, I&rsquo;m strolling around GitHub and I find
+out that the Tapir plugin has been updated. I want to incorporate those updates
+into my blog, and since I&rsquo;ve installed the plugin as a submodule, it&rsquo;s easy to
+do.</p>
+
+<p>All I have to do is go into the plugin directory and use Git to pull in the
+changes from GitHub.</p>
+
+<p>```
+$ cd .plugin-sources/tapir</p>
+
+<p>$ git pull</p>
+
+<h2>OR</h2>
+
+<p>$ git fetch origin
+$ git merge origin/master
+```</p>
+
+<p>Now I have the latest version, and I can copy the updated files into my project.</p>
+
+<p>When I go back into the root directory of my blog, Git tells me that the
+submodule has been changed. Specifically, there are new commits on that
+repository.</p>
+
+<p>```
+$ git status</p>
+
+<h1>On branch source</h1>
+
+<h1>Changes not staged for commit:</h1>
+
+<h1>(use &ldquo;git add <file>&hellip;&rdquo; to update what will be committed)</h1>
+
+<h1>(use &ldquo;git checkout &mdash; <file>&hellip;&rdquo; to discard changes in working directory)</h1>
+
+<p>#</p>
+
+<h1>modified:   .plugin-sources/tapir (new commits)</h1>
+
+<p>#
+no changes added to commit (use &ldquo;git add&rdquo; and/or &ldquo;git commit -a&rdquo;)
+```</p>
+
+<p>This basically means that submodule is pointing to one commit, but the repository
+itself is now pointing to a different (newer) one. To get the submodule lined
+up with the repository, I just to a <code>submodule update</code> command.</p>
+
+<p><code>
+$ git submodule update
+Submodule path '.plugin-sources/tapir': checked out 'e20ce325efa29ca9deb0ac952085b3cf27462275'
+</code></p>
+
+<p>The hash will be different, depending on the commit. But the submodule has now
+been updated, and I am all set to use the new plugin!</p>
+
+<p>So that&rsquo;s how I manage my plugins with Octopress. One issue I haven&rsquo;t addressed
+is the fact that I still have to manually copy new or updated files into my
+project directory. I might try using symbolic links instead, but I would need to
+experiment with that first. This system isn&rsquo;t perfect, but at least it is one
+step above manually downloading individual files from the project repository.</p>
+
+<p>How do <em>you</em> like to manage your Octopress plugins?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress: Deploy to GitHub, Back Up to Bitbucket]]></title>
+    <link href="http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github/"/>
+    <updated>2013-10-03T18:22:00-06:00</updated>
+    <id>http://garrettn.github.io/blog/2013/10/03/octopress-deploy-to-github</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s probably pretty obvious that this blog is built with <a href="http://octopress.org">Octopress</a>.
+Obvious at least until I use a new theme.</p>
+
+<p>Octopress is built on top of the static site generator <a href="http://jekyllrb.com">Jekyll</a>, and together
+they make a fantastic blogging platform for hacker types. You can write your
+posts in your favorite editor in plain text, you can track your changes with
+Git, and you can publish on any web server that can serve static HTMl, CSS, and
+JavaScript&mdash;no database necessary!</p>
+
+<p>One popular place to deploy an Octopress blog is on <a href="http://pages.github.com">GitHub Pages</a>, and
+Octopress has built-in functionality to make it trivially easy to do.<!--more-->
+The blog you&rsquo;re reading right now is a testament to how simple it is (as is the
+fact that the &ldquo;Octo&rdquo; in Octopress refers to the GitHub mascot, Octocat, I
+believe.)</p>
+
+<h2>Setting Up Deployment to GitHub</h2>
+
+<p>The first thing you need to do, obviously, is create an account on GitHub. When
+you have an account set up, you then create a repository that takes the form
+<code>username.github.io</code>.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> GitHub will automatically recognize this repo as your
+personal site, and any static web content you push here will be published.</p>
+
+<p>Next, if you haven&rsquo;t already done so, <a href="http://octopress.org/docs/setup/">clone the Octopress repository on your computer and install the dependencies</a>.</p>
+
+<p>Once Bundler finishes installing all the gems, you&rsquo;ll have the <code>rake</code> command
+available to you with lots of tasks already configured to help you customize,
+preview, generate, and deploy your blog.</p>
+
+<p>The Rake task I want to focus on here is the aptly named <code>setup_github_pages</code>.
+Simply invoke that task to get started.</p>
+
+<p><code>
+$ rake setup_github_pages
+</code></p>
+
+<p>It will now ask you for the URL for your repository. You can use either the
+Git or HTTPS protocol, both of which should be easy to find on your
+repository page. For this example, I&rsquo;ll use the URL for my own GitHub pages
+repo.</p>
+
+<p>```
+Enter the read/write url for your repository
+(For example, &lsquo;git@github.com:your_username/your_username.github.io.git)</p>
+
+<pre><code>       or 'https://github.com/your_username/your_username.github.io')
+</code></pre>
+
+<p>Repository url: git@github.com:garrettn/garrettn.github.io.git
+```</p>
+
+<p>And that&rsquo;s all you need to do! You should now see a bunch of output like this:</p>
+
+<p>```
+Added remote git@github.com:garrettn/garrettn.github.io.git as origin
+Set origin as default remote
+Master branch renamed to &lsquo;source&rsquo; for committing your blog source files
+rm -rf <em>deploy
+mkdir </em>deploy
+cd <em>deploy
+Initialized empty Git repository in &hellip;&hellip;./garrettn.github.io/</em>deploy/.git/
+[master (root-commit) 2d8c9ba] Octopress init
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+cd &ndash;</p>
+
+<hr />
+
+<h2>Now you can deploy to git@github.com:garrettn/garrettn.github.io.git with <code>rake deploy</code></h2>
+
+<p>```</p>
+
+<p>A couple important things have happened here:</p>
+
+<ol>
+<li><p>The task added your repo URL as a Git remote and named it &ldquo;origin.&rdquo; If you
+had cloned Octopress from the official repo, that remote was renamed to
+&ldquo;octopress,&rdquo; and it&rsquo;s still available so you can conveniently pull in changes
+from upstream.</p></li>
+<li><p>The master branch, which was up to this point called &ldquo;master,&rdquo; was renamed to
+&ldquo;source.&rdquo;</p></li>
+<li><p>A new <code>_deploy</code> directory was created, and inside that directory a new Git
+repository was created with that same remote as &ldquo;origin.&rdquo; This folder will be
+ignored by Git in the root of your project, but here is where the &ldquo;master&rdquo; branch
+is that will actually be pushed to your repository on GitHub.</p></li>
+</ol>
+
+
+<p>Now, like the script says, you simply need to enter <code>rake deploy</code> to make the
+magic happen. You can run this command right after you generate your site.</p>
+
+<p><code>
+$ rake generate
+$ rake deploy
+</code></p>
+
+<p>When you invoke the <code>generate</code> command, your site will be generated into the
+<code>public</code> directory. The <code>deploy</code> task will then go into the <code>_deploy</code> directory
+and pull in any changes there may be on the server (there shouldn&rsquo;t be). Next, it
+will copy the contents of the <code>public</code> directory into <code>_deploy</code> and commit the
+changes to the master branch. Finally, it will push that branch up to your remote
+repository on GitHub.</p>
+
+<p>Within about 10 minutes, you should see shiny new blog at <code>username.github.io</code>.
+That was easy, wasn&rsquo;t it?</p>
+
+<h2>What About the Source Files?</h2>
+
+<p>As I said before, the Rake task for setting up deployment changes your main
+branch from &ldquo;master&rdquo; to &ldquo;source.&rdquo; Since the deployment task only pushes the
+master branch, it&rsquo;s completely up to you what to do with the source. You&rsquo;ll want
+to back it up somewhere, and probably the easiest thing to do is to push that
+branch up to GitHub also.</p>
+
+<p><code>
+$ git push -u origin source
+</code></p>
+
+<p>But suppose you don&rsquo;t want your source files to be publicly accessible? It might
+be a silly thing to worry about, since everything in your source files gets
+published to the site anyway. But what if you are working on a post that isn&rsquo;t
+quite ready for prime time? Jekyll lets you set an option in the YAML front
+matter of a post called <code>published</code>. When it is set to <code>false</code>, you&rsquo;ll still
+see the post when you&rsquo;re previewing your site locally, but it won&rsquo;t get
+generated for deployment.</p>
+
+<p>So if you&rsquo;re working on a post that&rsquo;s going through several revisions, you might
+not want to make it publicly accessible yet, but you&rsquo;ll probably still want to
+back it up somewhere. What to do?</p>
+
+<p>One of the simplest solutions is Bitbucket.</p>
+
+<h2>Backing Up to Bitbucket</h2>
+
+<p><a href="https://bitbucket.org">Bitbucket</a> is another code hosting service, perhaps not as popular as GitHub,
+but still awesome and here&rsquo;s why: <strong>unlimited free private repositories</strong>.
+Whereas GitHub charges you for any amount of private repos, Bitbucket bases its
+payment scheme on how many users you have collaborating on your repos (it&rsquo;s
+free for up to five users). So if you have a private project that you want to
+back up to a safe place but not where it can be accessed by anybody, Bitbucket
+is an excellent resource.</p>
+
+<p>So here&rsquo;s what you do: Create a Bitbucket account if you don&rsquo;t have one, and
+then set up a new repository for your Octopress source files (I gave it the same
+name as on GitHub). On the page for your new repository, you&rsquo;ll find a URL that
+you can add to your local Git repository. Then you simply add that remote. I
+called mine &ldquo;backup.&rdquo;</p>
+
+<p><code>
+$ git remote add backup ssh://git@bitbucket.org/garrettnay/garrettn.github.io.git
+</code></p>
+
+<p>Now, whenever you have commits you want to back up, simply push the source
+branch up to Bitbucket.</p>
+
+<p><code>
+$ git push -u backup source
+</code></p>
+
+<p>(Use the <code>-u</code> option the first time to set up a tracking branch. After that it&rsquo;s
+no longer necessary.)</p>
+
+<p>And that&rsquo;s all there is to it! Now you have an easy way to deploy your blog,
+and also a place to back it up away from prying eyes. It&rsquo;s a setup that&rsquo;s worked
+really well for me.</p>
+
+<p>See, I told you Octopress was fun.</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I&rsquo;m not going to go into details here about how to create repositories on GitHub or Bitbucket. The process on both sites is pretty straightforward, and they both have excellent documentation.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>
